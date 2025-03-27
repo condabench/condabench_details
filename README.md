@@ -22,6 +22,8 @@ The first phase involves the curation of question-answer (QA) pairs. These pairs
     <img width="40%" src="https://raw.githubusercontent.com/condabench/condabench_details/refs/heads/main/assets/code_generation.png">
 </p>
 In the second phase, code is generated to provide evidence for the answers derived from the curated QA pairs. This involves generating and reviewing scripts that can access the source dataset and produce the necessary results to support the provided answers. The generated code is then validated to ensure that it accurately performs the intended data analysis. This validation helps mitigate any potential errors in the curated QAs from the previous stage.
+<br><br>
+
 > [!NOTE]
 > The prompts for both the Code Generator agent and the Reviewer agent are available [here](https://github.com/condabench/condabench_details/blob/main/code_gen/code_gen_reviewer.md). Both agents are powered by GPT-4o.
 
