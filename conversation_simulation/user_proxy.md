@@ -1,5 +1,5 @@
 # User Proxy Agent
-Below is the prompt used for the user proxy agent:
+Below is the prompt used for the User Proxy agent:
 
 ---
 ~~~
