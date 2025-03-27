@@ -39,7 +39,7 @@ In order to evaluate a DA tool, you should first run this workflow and then proc
 <br><br>
 
 > [!NOTE]
-> The prompts for the User Proxy agent is available [here](https://github.com/condabench/condabench_details/blob/main/code_gen/user_proxy.md). This agent is powered by GPT-4o.
+> The prompts for the User Proxy agent is available [here](https://github.com/condabench/condabench_details/blob/main/conversation_simulation/user_proxy.md). This agent is powered by GPT-4o.
 
 ### Evaluation
 After the simulation stage, we run evaluation to get the correctness and conversation quality score.
