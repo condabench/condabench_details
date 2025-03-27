@@ -31,11 +31,19 @@ In the second phase, code is generated to provide evidence for the answers deriv
 <p align="center">
     <img width="40%" src="https://raw.githubusercontent.com/condabench/condabench_details/refs/heads/main/assets/evaluation_phase.png">
 </p>
-We employ a multi-agent workflow to evaluate Conversational DA tools and test them on the basis of answer correctness and conversational proficiency. To automate evaluation of such conversational tools, we first simulate a conversation using a user-proxy, then evaluate the responses obtained.
+We employ a multi-agent workflow to evaluate Conversational DA tools and test them on the basis of answer correctness and conversational proficiency. To automate evaluation of such conversational tools, we first simulate a conversation using a User Proxy, then evaluate the responses obtained.
 
 ### Simulation
-We define a user-proxy agent which simulates a conversation with an external DA tool when it tries to find a solution to the query asked.
+We define a User Proxy agent which simulates a conversation with an external DA tool when it tries to find a solution to the query asked.
 In order to evaluate a DA tool, you should first run this workflow and then proceed towards the evaluation script.
+<br><br>
+
+> [!NOTE]
+> The prompts for the User Proxy agent is available [here](https://github.com/condabench/condabench_details/blob/main/code_gen/user_proxy.md). This agent is powered by GPT-4o.
 
 ### Evaluation
 After the simulation stage, we run evaluation to get the correctness and conversation quality score.
+<br><br>
+
+> [!NOTE]
+> The prompts for both the evaluator agents are available [here](https://github.com/condabench/condabench_details/blob/main/eval/evaluators.md). Both agents are powered by GPT-4o.
