@@ -4,6 +4,19 @@
 </p>
 ConDABench is a collection of conversational data analysis (ConDA) problems derived from diverse sources. We developed a multi-agent architecture for creating challenging data analysis benchmarks. The key feature of our approach is that the benchmarks are validated in four ways: (1) the data analysis question-answer (QA) pairs are extracted from real-world data analysis articles that are accompanied by source datasets, (2) the QA pairs are reviewed by a Reviewer agent checks the quality and correctness of the generated pairs, (3) the QA pairs are further validated by generating code that produces evidence for the answer from the source dataset, and (4) a final validation step is performed by a Reviewer agent that checks for coherence of the question-answer pair, the code, the dataset, and the execution results. We also provide a multi-agent evaluation framework that can evaluate advanced data analysis (ADA) tools on CoDABench. The framework measures the conversationality and quality of solutions, beyond just exact match. Specifically we provide a user proxy that helps evaluate multi-turn interactive data analysis tools by conversing with the external DA tool similar to a human. 
 The DA tool's response is recorded and is evaluated against correctness (Correctness Score) and conversation quality (Conversation Score) for a given query and data file(s).
+<br><br>
+
+> [!NOTE]
+> The main challenge when using ML models for generating synthetic benchmarks is ensuring that the generated benchmarks are of the highest quality and real. Reviewers have noticed the same challenge in our work.  We want to emphasize here that every detail of our benchmark generation framework is carefully designed to overcome exactly this challenge, and ensure that ConDABench only contains very high quality benchmarks. The main idea is to reduce the probability of generating a bad benchmark by making it depend on (failure) of multiple independent steps.
+>
+> In particular, starting with an article A and dataset D, ConDABench can contain a poor quality benchmark only if \
+(1) the curator extracts a "hallucinated" QA pair from the human-authored article A, which happens with probability, say, p_1, \
+(2) the reviewer does not detect this "hallucination", which happens with probability p_2, \
+(3) the code generator is able to generate code that derives the answer Ans for the question Q from the dataset, which perhaps happens with some small probability p_3, \
+(4) the reviewer does not detect the mistake in the code using code execution or the mismatch between D, Q, and Ans, which perhaps happens with probability p_4. \
+The chances of ConDABench containing a poor quality benchmark is now the product of p_1,p_2,p_3, and p_4, which should be very low.
+
+We explore these steps in the following:
 
 # Benchmark Construction
 
