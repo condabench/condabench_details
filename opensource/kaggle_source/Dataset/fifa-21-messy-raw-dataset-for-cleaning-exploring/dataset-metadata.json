@@ -1,0 +1,41 @@
+{
+  "id": "yagunnersya/fifa-21-messy-raw-dataset-for-cleaning-exploring",
+  "id_no": 923113,
+  "datasetSlugNullable": "fifa-21-messy-raw-dataset-for-cleaning-exploring",
+  "ownerUserNullable": "yagunnersya",
+  "usabilityRatingNullable": 0.7941176470588235,
+  "titleNullable": "FIFA 21 messy, raw dataset for cleaning/ exploring",
+  "subtitleNullable": "FIFA 21 complete players' messy and raw dataset",
+  "descriptionNullable": "### Context\n\nKaggle is notorious for providing pure, clean datasets ready for analysis and model building.\n\nSo here I present to you a veeeeery messy and raw dataset of EA Sports' latest installment of their hit FIFA series - FIFA21, which I scraped from sofifa.com\n\n### Content\n\nOne of the challenges of web scraping is unclean data, and it natural, really. Different front-end developers write the HTML their own way, and that makes the incoming data unpredictable.\n\nYou'll definitely learn a lot about data cleaning with this dataset.\n\n### Acknowledgements\n\nA huge round of applause for sofifa.com for providing this amazing data!\n\n### Inspiration\n\n1. Convert the height and weight columns to numerical forms\n2. Remove the unnecessary newline characters from all columns that have them.\n3. Based on the 'Joined' column, check which players have been playing at a club for more than 10 years!\n4.  'Value', 'Wage' and \"Release Clause' are string columns. Convert them to numbers. For eg, \"M\" in value column is Million, so multiply the row values by 1,000,000, etc.\n5. Some columns have 'star' characters. Strip those columns of these stars and make the columns numerical\n6. Which players are highly valuable but still underpaid (on low wages)? (hint: scatter plot between wage and value)\n\nAsk more questions yourself !\n\nHope it helps! :) If you like this dataset, please show your support by upvoting this dataset! Thanks! :)",
+  "datasetId": 923113,
+  "datasetSlug": "fifa-21-messy-raw-dataset-for-cleaning-exploring",
+  "hasDatasetSlug": true,
+  "ownerUser": "yagunnersya",
+  "hasOwnerUser": true,
+  "usabilityRating": 0.7941176470588235,
+  "hasUsabilityRating": true,
+  "totalViews": 43683,
+  "totalVotes": 151,
+  "totalDownloads": 9514,
+  "title": "FIFA 21 messy, raw dataset for cleaning/ exploring",
+  "hasTitle": true,
+  "subtitle": "FIFA 21 complete players' messy and raw dataset",
+  "hasSubtitle": true,
+  "description": "### Context\n\nKaggle is notorious for providing pure, clean datasets ready for analysis and model building.\n\nSo here I present to you a veeeeery messy and raw dataset of EA Sports' latest installment of their hit FIFA series - FIFA21, which I scraped from sofifa.com\n\n### Content\n\nOne of the challenges of web scraping is unclean data, and it natural, really. Different front-end developers write the HTML their own way, and that makes the incoming data unpredictable.\n\nYou'll definitely learn a lot about data cleaning with this dataset.\n\n### Acknowledgements\n\nA huge round of applause for sofifa.com for providing this amazing data!\n\n### Inspiration\n\n1. Convert the height and weight columns to numerical forms\n2. Remove the unnecessary newline characters from all columns that have them.\n3. Based on the 'Joined' column, check which players have been playing at a club for more than 10 years!\n4.  'Value', 'Wage' and \"Release Clause' are string columns. Convert them to numbers. For eg, \"M\" in value column is Million, so multiply the row values by 1,000,000, etc.\n5. Some columns have 'star' characters. Strip those columns of these stars and make the columns numerical\n6. Which players are highly valuable but still underpaid (on low wages)? (hint: scatter plot between wage and value)\n\nAsk more questions yourself !\n\nHope it helps! :) If you like this dataset, please show your support by upvoting this dataset! Thanks! :)",
+  "hasDescription": true,
+  "isPrivate": false,
+  "keywords": [
+    "football",
+    "earth and nature",
+    "computer science"
+  ],
+  "licenses": [
+    {
+      "nameNullable": "CC0-1.0",
+      "name": "CC0-1.0",
+      "hasName": true
+    }
+  ],
+  "collaborators": [],
+  "data": []
+}

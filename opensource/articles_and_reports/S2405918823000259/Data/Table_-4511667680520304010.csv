@@ -1,0 +1,5 @@
+Method,Precision,Recall,F1 score
+Logit Regression,0.404,0.593,0.481
+Random Forest,0.956,0.67,0.788
+Multilayer Perception,0.694,0.617,0.653
+Convolutional Neural Network,0.812,0.512,0.628

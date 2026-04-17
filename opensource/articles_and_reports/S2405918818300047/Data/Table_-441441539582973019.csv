@@ -1,0 +1,15 @@
+Variables,Description,Data sources,Mean,Max,Min,Obs
+Tunisia,Tunisia,Tunisia,Tunisia,Tunisia,Tunisia,Tunisia
+GDP per capita,Growth Domestic Product per capita,"World Development Indicators, World Bank; 2017",2468.112,4342.823,1158.370,36
+Public Education Expenditure,Public Education Expenditure expressed in millions of Tunisian dinars,"World Development Indicators, World Bank; 2017",2.41E+09,5.57E+09,6.78E+08,36
+GERFPE,Gross Enrollment Ratio in Female Primary Education.,"United National Educational, Scientific and Cultural Organization; 2017",105491,112132,85280,36
+GERMPE,Gross Enrollment Ratio in Male Primary Education.,"United National Educational, Scientific and Cultural Organization; 2017",117759,126612,107024,36
+SLE,"School Life Expectancy from primary to tertiary education, both sexes (years)","United National Educational, Scientific and Cultural Organization; 2017",12.022,14.710,8.276,36
+INFLATION,"Inflation, consumer prices (in% annually)","World Development Indicators, World Bank; 2017",5.088,8.900,1.983,36
+Morocco,Morocco,Morocco,Morocco,Morocco,Morocco,Morocco
+GDP per capita,Growth Domestic Product per capita,"World Development Indicators, World Bank; 2017",1683.268,3190.131,658.131,36
+Public Education Expenditure,Public Education Expenditure expressed in millions of Moroccan Dirham,"World Development Indicators, World Bank; 2017",4.54E+08,1.34E+09,4.55E+08,36
+GERPF,Gross Enrollment Ratio in Female Primary Education.,"United National Educational, Scientific and Cultural Organization; 2017",78.8180,114.017,51.761,36
+GERPM,Gross Enrollment Ratio in Male Primary Education.,"United National Educational, Scientific and Cultural Organization; 2017",98.800,119.279,75.206,36
+SLE,"School Life Expectancy from primary to tertiary education, both sexes (number of years)","United National Educational, Scientific and Cultural Organization; 2017",8.352,12.477,5.432,36
+INFLATION,"Inflation, consumer prices (in% annually)","World Development Indicators, World Bank; 2017",4.065,12.492,0.435,36

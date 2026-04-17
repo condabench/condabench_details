@@ -1,0 +1,8 @@
+Strike price,Volatility,Volatility,Volatility,Volatility,Volatility,Volatility,Volatility,Volatility,Volatility
+Empty Cell,σ0 = 0.2,σ0 = 0.2,σ0 = 0.2,σ0 = 0.3,σ0 = 0.3,σ0 = 0.3,σ0 = 0.4,σ0 = 0.4,σ0 = 0.4
+Option type,Asian,Euro,Diff,Asian,Euro,Diff,Asian,Euro,Diff
+K = 90,12.56,13.3,−0.74,13.3,14.67,−1.37,14.45,16.37,−1.92
+K = 95,8.03,9.38,−1.35,9.18,11.25,−2.07,10.63,13.28,−2.65
+K = 100,4.27,6.17,−1.90,5.79,8.38,−2.59,7.45,10.61,−3.16
+K = 105,1.8,3.76,−1.96,3.31,6.06,−2.75,4.95,8.36,−3.41
+K = 110,0.58,2.13,−1.55,1.7,4.26,−2.56,3.12,6.5,−3.38

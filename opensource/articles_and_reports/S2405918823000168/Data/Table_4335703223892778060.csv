@@ -1,0 +1,34 @@
+Empty Cell,(1),(2)
+IB,−0.0838,−0.0076
+IB,(-2.27),(-0.13)
+Lnsize,−0.0037,−0.0120
+Lnsize,(-0.52),(-0.35)
+Lnsize × IB,,0.0122
+Lnsize × IB,,(0.36)
+Maturity,0.0407,0.0398
+Maturity,(1.60),(1.36)
+Maturity × IB,,0.0035
+Maturity × IB,,(0.14)
+Age,−0.0007,−0.0352
+Age,(-0.14),(-1.51)
+Age × IB,,0.0390
+Age × IB,,(1.69)
+Rating,0.0628,0.1077
+Rating,(5.61),(3.11)
+Rating × IB,,−0.0679
+Rating × IB,,(-2.04)
+Amihud,0.0096,−0.0826
+Amihud,(1.05),(-2.64)
+Amihud × IB,,0.1023
+Amihud × IB,,(2.89)
+SOE,0.0623,0.1062
+SOE,(0.91),(1.62)
+SOE × IB,,−0.1267
+SOE × IB,,(-2.06)
+MCB,0.0022,−0.0652
+MCB,(0.11),(-1.21)
+MCB × IB,,0.0814
+MCB × IB,,(1.56)
+Intercept,0.2508,0.2530
+Intercept,(2.69),(3.19)
+Adj-R2,14.6%,20.3%

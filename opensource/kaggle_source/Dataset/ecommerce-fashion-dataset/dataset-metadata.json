@@ -1,0 +1,44 @@
+{
+  "id": "mukuldeshantri/ecommerce-fashion-dataset",
+  "id_no": 2327126,
+  "datasetSlugNullable": "ecommerce-fashion-dataset",
+  "ownerUserNullable": "mukuldeshantri",
+  "usabilityRatingNullable": 1.0,
+  "titleNullable": "E-commerce Dataset with 30K Products",
+  "subtitleNullable": "Dataset containing over 30K products of women's fashion",
+  "descriptionNullable": "This dataset is a collection of 30000 women fashion products. Categories covered in this dataset is western wear, Indian wear, perfumes and fragrances, watches and nightwear. \u2728 \nYou can use this dataset to apply your data cleaning, visualization and analytical skills.\nColumn description is mentioned below:  \nBrandName: Mentions the brand of the product\nDetails: Deatils about the product  \nSize: Sizes available   \nMRP: This is max retail price  \nSellPrice: This is the price after discount  \nCategory: Category of the product  \n*Nan value is null value*\n\n**I hope you liked the dataset. I'd love to get you feedback.**\ud83d\ude4c \n*Please upvote  this dataset.*\ud83d\udc4d ",
+  "datasetId": 2327126,
+  "datasetSlug": "ecommerce-fashion-dataset",
+  "hasDatasetSlug": true,
+  "ownerUser": "mukuldeshantri",
+  "hasOwnerUser": true,
+  "usabilityRating": 1.0,
+  "hasUsabilityRating": true,
+  "totalViews": 43232,
+  "totalVotes": 106,
+  "totalDownloads": 7921,
+  "title": "E-commerce Dataset with 30K Products",
+  "hasTitle": true,
+  "subtitle": "Dataset containing over 30K products of women's fashion",
+  "hasSubtitle": true,
+  "description": "This dataset is a collection of 30000 women fashion products. Categories covered in this dataset is western wear, Indian wear, perfumes and fragrances, watches and nightwear. \u2728 \nYou can use this dataset to apply your data cleaning, visualization and analytical skills.\nColumn description is mentioned below:  \nBrandName: Mentions the brand of the product\nDetails: Deatils about the product  \nSize: Sizes available   \nMRP: This is max retail price  \nSellPrice: This is the price after discount  \nCategory: Category of the product  \n*Nan value is null value*\n\n**I hope you liked the dataset. I'd love to get you feedback.**\ud83d\ude4c \n*Please upvote  this dataset.*\ud83d\udc4d ",
+  "hasDescription": true,
+  "isPrivate": false,
+  "keywords": [
+    "clothing and accessories",
+    "business",
+    "exploratory data analysis",
+    "data visualization",
+    "tabular",
+    "e-commerce services"
+  ],
+  "licenses": [
+    {
+      "nameNullable": "other",
+      "name": "other",
+      "hasName": true
+    }
+  ],
+  "collaborators": [],
+  "data": []
+}

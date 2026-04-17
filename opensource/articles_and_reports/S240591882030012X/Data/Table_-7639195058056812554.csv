@@ -1,0 +1,17 @@
+Empty Cell,2yr,5yr,7yr,10yr,30yr,50yr
+Panel A: Zero-coupon rates,Panel A: Zero-coupon rates,Panel A: Zero-coupon rates,Panel A: Zero-coupon rates,Panel A: Zero-coupon rates,Panel A: Zero-coupon rates,Panel A: Zero-coupon rates
+Mean,1.9475,2.5308,2.8727,3.2722,4.0161,3.8628
+Max,5.1929,5.2737,5.3698,5.6587,6.3592,5.9507
+Min,−0.6854,−0.4390,−0.2281,0.0812,1.0099,1.3050
+Std. Dev.,1.7181,1.6413,1.5650,1.4749,1.2715,1.0492
+Skewness,0.0232,−0.3253,−0.4724,−0.6011,−0.5400,−0.5174
+Kurtosis,1.6574,1.8355,2.0109,2.2387,2.4300,2.5161
+AR (1) coeff,0.9995,0.9994,0.9994,0.9993,0.9990,0.9966
+Panel B: Forward rates,Panel B: Forward rates,Panel B: Forward rates,Panel B: Forward rates,Panel B: Forward rates,Panel B: Forward rates,Panel B: Forward rates
+Mean,2.3113,3.4578,3.9629,4.3897,4.0298,3.2978
+Max,5.3084,5.8455,6.1765,6.6639,6.4462,5.7061
+Min,−0.6274,0.0282,0.4885,0.9842,1.4695,1.2821
+Std. Dev.,1.7544,1.5161,1.3891,1.2969,1.0297,0.7022
+Skewness,−0.2458,−0.7551,−0.8853,−0.8460,−0.1960,0.2764
+Kurtosis,1.7401,2.3760,2.7318,2.8629,2.4861,2.9585
+AR (1) coeff,0.9993,0.9992,0.9991,0.9989,0.9959,0.9373

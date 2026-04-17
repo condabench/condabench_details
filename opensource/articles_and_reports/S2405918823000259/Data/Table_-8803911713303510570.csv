@@ -1,0 +1,5 @@
+Method,Precision,Recall,F1 score
+XGBoost,0.875,0.742,0.803
+LightGBM,0.863,0.741,0.797
+Random Forest,0.875,0.723,0.792
+AXGB – original modification (timestep ≥ 5),0.81 3,0.68,0.74

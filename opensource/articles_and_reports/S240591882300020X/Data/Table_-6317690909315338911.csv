@@ -1,0 +1,31 @@
+Variable,Definition
+PledgePct,Percentage of the largest shareholder's ownership that is pledged at the end of 2016.
+High Pledge,"Equal to one if the percentage of the largest shareholder's ownership that is pledged is larger than 80% at the end of 2016, and zero otherwise."
+MRet,"Monthly stock returns of the firm, adjusted for stock split and including cash dividends, and multiplied by 100."
+Dum2017,"Equal to one if the observation belongs to 2017, and zero otherwise."
+SOE,"Equal to one if the firm is ultimately controlled by the central State-owned Assets Supervision and Administration Commission of the State Council (SASAC), local SASAC, Ministry of Finance, or other government agents, and zero otherwise."
+PriorRet,Buy-and-hold returns over the previous three months.
+Size,The natural logarithm of the market capitalization of equity.
+B/M,Book assets divided by market capitalization of equity.
+LEV,Total liabilities divided by total assets.
+Cash,Cash and cash equivalents divided by total assets.
+ROA,Net income trailing twelve months divided by total assets.
+Indep,Number of independent directors divided by the size of board.
+Inst,Percentage of shareholdings by institutional investor.
+Top1,Percentage of shareholdings by the largest shareholder.
+DRet,"Daily stock returns of the firm, adjusted for stock split and including cash dividends, and multiplied by 100."
+Mom,Buy-and-hold returns over the previous three trading days.
+MktMom,Buy-and-hold returns of Shanghai Composite Index over the previous three trading days.
+CrMom,Buy-and-hold returns over the previous three trading days for the equal-weighed portfolio of firms with the largest shareholders pledging more than 95% of their shares at the end of 2016.
+Zero Pledge,"Equal to one if the largest shareholder pledges no shares at the end of 2016, and zero otherwise."
+Dum2018,"Equal to one if the observation belongs to 2018, and zero otherwise."
+Illegal Dummy,"Equal to one if the firm is disclosed by CSRC, CBRC and PBOC to have violations on “illegal guaranteed loans to the largest shareholder” and “illegal occupation of resources by the largest shareholder” in a given year, and zero otherwise."
+RPT Net Inflow (Lending),"The amount of net borrowing from the largest shareholder to the firm in a given year, divided by total assets."
+RPT Net Inflow (Total),"The aggregated amount of cash flows received from the largest shareholder minus cash flows paid out to the largest shareholder in related-party transactions in a given year, divided by total assets."
+Private Placement,"Equal to one if the firm issues directional shares to its largest shareholder in a given year, and zero otherwise."
+Pledged,"Equal to one if the percentage of the largest shareholder's ownership that is pledged is nonzero at the end of 2013, and zero otherwise."
+Current Ratio,Current assets divided by current liabilities.
+PPET,Net book value of fixed assets divided by total assets.
+Natural Person,"Equal to one if the firm is ultimately controlled by natural persons, and zero otherwise."
+Investment,Change of inventories and fixed assets divided by total assets.
+Post,"Equal to one if the observation belongs to post-policy period (2014 and 2015), and zero if the observation belongs to pre-policy period (2011 and 2012)."

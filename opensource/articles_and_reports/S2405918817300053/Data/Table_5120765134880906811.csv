@@ -1,0 +1,34 @@
+Classification code,Classification name,Number of listed companies,Number of listed companies,Number of listed companies,Number of traded companies,Number of traded companies,Number of traded companies
+Classification code,Classification name,Total,Market making,Negotiating,Total,Market making,Negotiating
+Investment Industry Classification,Investment Industry Classification,Investment Industry Classification,Investment Industry Classification,Investment Industry Classification,Investment Industry Classification,Investment Industry Classification,Investment Industry Classification
+10,Energy,80,25,55,43,25,35
+11,Raw Materials,460,99,361,178,97,148
+12,Industry,1037,240,797,385,235,304
+13,Non-daily Consumptions,329,62,267,101,61,80
+14,Daily Consumptions,193,39,154,73,37,58
+15,Health and Medicals,210,37,173,71,37,59
+16,Finance,51,8,43,26,7,25
+17,Information Technology,892,216,676,385,213,324
+18,Telecommunication,76,29,47,40,29,32
+19,Public Service,19,2,17,4,2,4
+20,Real Estate,12,2,10,2,2,1
+Management Industry Classification,Management Industry Classification,Management Industry Classification,Management Industry Classification,Management Industry Classification,Management Industry Classification,Management Industry Classification,Management Industry Classification
+A,"Agriculture, Forestry, Animal and Fisheries",83,20,63,40,19,33
+B,Mining,18,4,14,10,4,8
+C,Manufacturing,1898,403,1495,692,396,554
+D,"Electricity, Heat, Steam and Water",19,3,16,4,3,4
+E,Architecture,118,33,85,54,32,42
+F,Wholesale and Retail,100,21,79,37,20,31
+G,"Transportation, Storage and Post",37,9,28,16,9,13
+H,Lodging and Restaurant,5,1,4,1,1,1
+I,"Information Transmission, Software and IT",644,169,475,289,167,244
+J,Finance,43,7,36,23,6,22
+K,Real Estate,14,3,11,4,3,2
+L,Rent and Business Service,118,26,92,39,26,34
+M,Scientific Research and Technical Service,141,35,106,57,34,48
+N,"Water, Environment and Public Infrastructure",43,10,33,17,10,15
+O,Residential Maintenance,7,.,7,.,.,.
+P,Education,10,2,8,3,2,2
+Q,Health and Social Work,13,2,11,4,2,3
+R,"Culture, Sports and Entertainment",48,11,37,18,11,14
+Total,,3359,759,2600,1311,745,1073

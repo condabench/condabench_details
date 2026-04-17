@@ -1,0 +1,23 @@
+Empty Cell,The interbank market,The interbank market,The interbank market,The interbank market,The exchange market,The exchange market,The exchange market,The exchange market
+Empty Cell,(1),(1),(2),(2),(3),(3),(4),(4)
+Empty Cell,Value-weighted,Value-weighted,Equal-weighted,Equal-weighted,Value-weighted,Value-weighted,Equal-weighted,Equal-weighted
+Empty Cell,Mean,t-stat,Mean,t-stat,Mean,t-stat,Mean,t-stat
+Size 1,0.43,10.94,0.42,11.48,0.53,6.78,0.53,6.97
+Size 2,0.44,9.92,0.44,10.03,0.50,6.79,0.50,6.86
+Size 3,0.36,9.04,0.37,9.75,0.37,5.95,0.42,6.84
+H-L,−0.07,−3.26,−0.06,−3.01,−0.16,−2.30,−0.11,−1.62
+Maturity 1,0.33,19.71,0.35,20.19,0.42,9.07,0.46,9.28
+Maturity 2,0.36,9.03,0.38,10.02,0.40,6.08,0.47,6.89
+Maturity 3,0.45,6.42,0.49,7.30,0.51,5.74,0.53,6.21
+H-L,0.12,1.87,0.13,2.25,0.09,1.23,0.07,1.11
+Age 1,0.38,10.15,0.40,10.98,0.47,5.54,0.51,6.27
+Age 2,0.36,9.44,0.39,10.02,0.46,6.89,0.52,7.61
+Age 3,0.40,9.10,0.43,10.42,0.40,7.01,0.42,7.72
+H-L,0.02,0.81,0.02,1.45,−0.07,−1.13,−0.08,−1.39
+Rating 1,0.35,9.32,0.35,10.26,0.33,5.49,0.34,6.02
+Rating 2,0.47,10.79,0.46,11.28,0.64,8.12,0.64,8.26
+H-L,0.12,5.06,0.11,4.90,0.31,4.71,0.30,4.76
+Amihud 1,0.34,11.08,0.35,11.72,0.46,6.98,0.53,7.98
+Amihud 2,0.37,8.61,0.39,9.62,0.49,7.65,0.50,7.69
+Amihud 3,0.47,8.97,0.49,10.10,0.39,5.41,0.42,5.65
+H-L,0.13,4.40,0.14,4.71,−0.07,−1.24,−0.11,−1.69

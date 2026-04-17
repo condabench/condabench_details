@@ -1,0 +1,5 @@
+Orders,First-order lag,First-order lag,Second-order lag,Second-order lag
+Orders,A、C,B、C,A、C,B、C
+p-value ①,0.01348*,0.3725,0.0007843*,0.02182*
+p-value ②,5.996e-09*,2.2e-16*,9.853e-09*,2.2e-16*
+Conclusion,Mutual,C cause B,Mutual,Mutual

@@ -1,0 +1,11 @@
+N splits in final model trees,Feature,Description
+4898,confirmations_median,Median number of confirmations
+4961,confirmations_mean,Mean number of confirmations
+5059,vin_sz_mean,Mean volume of incoming transactions
+5075,fee_mean,Mean fee
+5188,vout_sz_median,Mean volume of out transactions
+5502,fee_median,Median fee
+6388,n_transactions,Number of transactions (limited to last 250)
+7189,confirmations_min,Min number of confirmations per transaction
+7472,vin_sz_max,Max incoming transaction size
+9013,confirmations_max,Max number of confirmations per transaction

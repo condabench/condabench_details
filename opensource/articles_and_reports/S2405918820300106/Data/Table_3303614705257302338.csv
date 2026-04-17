@@ -1,0 +1,6 @@
+Panel A: Firm characteristics (median) for the treated and control groups in 2007,Panel A: Firm characteristics (median) for the treated and control groups in 2007,Panel A: Firm characteristics (median) for the treated and control groups in 2007,Panel A: Firm characteristics (median) for the treated and control groups in 2007,Panel A: Firm characteristics (median) for the treated and control groups in 2007,Panel A: Firm characteristics (median) for the treated and control groups in 2007,Panel A: Firm characteristics (median) for the treated and control groups in 2007,Panel A: Firm characteristics (median) for the treated and control groups in 2007,Panel A: Firm characteristics (median) for the treated and control groups in 2007,Panel A: Firm characteristics (median) for the treated and control groups in 2007
+Empty Cell,N,Ret,σE,Size,Leverage,Profitability,CDS1,CDS5,CDSX
+Treated,24.0,0.234,0.223,10.055,0.26,0.107,8.586,29.358,47.763
+Control,24.0,0.161,0.195,9.627,0.227,0.120,7.75,23.351,35.253
+Diff,,0.073,0.028,0.428,0.033,−0.014,0.836,6.008,12.51
+p-value,,0.192,0.122,0.958,0.085,0.217,0.476,0.394,0.17

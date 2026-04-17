@@ -1,0 +1,7 @@
+Empty Cell,Empty Cell,Empty Cell,Empty Cell,Empty Cell,Empty Cell,Empty Cell,Empty Cell,Rs. (Million)/Per Branch.,Rs. (Million)/Per Branch.
+Variable,Mean,Standard Deviation,Minimum,First Quartile,Median,Third Quartile,Maximum,Skewness,Kurtosis
+Net Interest Income,40.51,86.73,0.74,1.59,2.26,42.89,525.19,3.59,15.74
+Non-Interest Income,20.43,42.55,0.18,0.6,0.91,17.57,196.72,2.66,6.88
+Personnel & Operating Charges,17.28,33.92,0.55,0.96,1.27,18.28,162.11,2.76,7.78
+Physical Capital,5.51,12.38,0.13,0.57,0.91,4.63,81.24,4.31,22.43
+Total Loanable Funds,978.72,1953.76,17.96,62.59,94.01,815.32,9625.92,2.9,8.88

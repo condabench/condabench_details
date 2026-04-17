@@ -1,0 +1,8 @@
+Resultsa,Resultsa,Resultsa,Resultsa,Resultsa,Resultsa,Resultsa,Resultsa,Resultsa
+Model,Model,Unstandardized coefficients,Unstandardized coefficients,Standardized coefficients,t,Sig.,95.0% Confidence interval for B,95.0% Confidence interval for B
+Model,Model.1,B,Std. error,Beta,t,Sig.,Lower bound,Upper bound
+1,(Constant),6.615E-15,0.524,,.000,1.0,−2.253,2.253
+1,Zscore: volume of tweets,−.638,2.331,−.638,−.274,0.81,−10.670,9.393
+1,Zscore: volume of positive tweets,.628,2.016,.628,.312,0.785,−8.045,9.302
+1,Zscore: volume of negative tweets,−.532,2.298,−.532,−.231,0.839,−10.420,9.356
+R R Square Adjusted R Square,,.585b .342 −.645,,,,,,

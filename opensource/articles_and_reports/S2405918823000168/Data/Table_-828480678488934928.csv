@@ -1,0 +1,13 @@
+Panel B. Pearson correlations,Panel B. Pearson correlations,Panel B. Pearson correlations,Panel B. Pearson correlations,Panel B. Pearson correlations,Panel B. Pearson correlations,Panel B. Pearson correlations,Panel B. Pearson correlations,Panel B. Pearson correlations,Panel B. Pearson correlations,Panel B. Pearson correlations,Panel B. Pearson correlations
+Empty Cell,MKTSTK,SMB,VMG,DEF,TERM,MKTIB,LIQIB,CREIB,MKTEX,LIQEX,CREEX
+MKTSTK,1,,,,,,,,,,
+SMB,0.22,1,,,,,,,,,
+VMG,−0.32,−0.57,1,,,,,,,,
+DEF,−0.12,0.03,−0.07,1,,,,,,,
+TERM,0.10,−0.01,−0.02,−0.55,1,,,,,,
+MKTIB,0.09,0.11,−0.19,0.53,0.17,1,,,,,
+LIQIB,0.03,0.10,−0.05,−0.06,0.00,−0.10,1,,,,
+CREIB,0.02,0.19,−0.23,0.48,0.00,0.61,−0.08,1.0,,,
+MKTEX,−0.01,0.08,−0.20,0.47,0.10,0.78,0.13,0.52,1.0,,
+LIQEX,−0.05,0.01,−0.06,0.06,−0.17,0.03,−0.06,0.04,0.03,1,
+CREEX,0.02,0.11,−0.01,0.06,−0.03,0.13,0.31,0.12,0.21,−0.06,1.0

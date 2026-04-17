@@ -1,0 +1,22 @@
+Panel B. Sample of 2017,Panel B. Sample of 2017,Panel B. Sample of 2017,Panel B. Sample of 2017,Panel B. Sample of 2017,Panel B. Sample of 2017,Panel B. Sample of 2017,Panel B. Sample of 2017,Panel B. Sample of 2017,Panel B. Sample of 2017,Panel B. Sample of 2017,Panel B. Sample of 2017,Panel B. Sample of 2017
+Variables,Daily Stock Return (DRet),Daily Stock Return (DRet),Daily Stock Return (DRet),Daily Stock Return (DRet),Daily Stock Return (DRet),Daily Stock Return (DRet),Daily Stock Return (DRet),Daily Stock Return (DRet),Daily Stock Return (DRet),Daily Stock Return (DRet),Empty Cell,Empty Cell
+Variables,Sample of Positive and Negative CrMom,Sample of Positive and Negative CrMom,Sample of Positive and Negative CrMom,Sample of Positive and Negative CrMom,Sample of Positive CrMom,Sample of Positive CrMom,Sample of Positive CrMom,Sample of Positive CrMom,Sample of Negative CrMom,Sample of Negative CrMom,Sample of Negative CrMom,Sample of Negative CrMom
+Variables,(1),(2),(3),(4),(5),(6),(7),(8),(9),(10),(11),(12)
+CrMom,2.385∗∗∗,2.387∗∗∗,2.537∗∗∗,2.295∗∗∗,−3.473∗∗∗,−3.572∗∗∗,−3.089∗∗∗,−2.835∗∗,2.197,2.375,2.366,−0.399
+CrMom,(4.25),(4.21),(4.49),(3.55),(−3.41),(−3.47),(−2.97),(−2.42),(1.38),(1.49),(1.48),(−0.21)
+High Pledge,,0.002,−0.005,,,0.045∗∗,0.034,,,0.033,0.029,
+High Pledge,,(0.20),(−0.43),,,(2.12),(1.57),,,(1.11),(1.01),
+High Pledge × CrMom,,−0.039,−0.067,,,1.980∗,1.906,,,−3.650,−3.670,
+High Pledge × CrMom,,(−0.06),(−0.10),,,(1.70),(1.61),,,(−1.60),(−1.61),
+Zero Pledge,,,,0.004,,,,−0.003,,,,−0.046∗∗∗
+Zero Pledge,,,,(0.63),,,,(−0.20),,,,(−3.11)
+Zero Pledge × CrMom,,,,0.407,,,,−0.270,,,,4.456∗∗∗
+Zero Pledge × CrMom,,,,(1.04),,,,(−0.40),,,,(3.72)
+Mom,0.020,0.019,−0.130,−0.128,0.240,0.241,−0.245,−0.248,−0.216,−0.218,−0.206,−0.198
+Mom,(0.10),(0.10),(−0.72),(−0.71),(0.98),(0.99),(−1.07),(−1.08),(−0.94),(−0.94),(−0.90),(−0.86)
+MktMom,44.311∗∗∗,44.311∗∗∗,44.309∗∗∗,44.308∗∗∗,43.806∗∗∗,43.806∗∗∗,43.796∗∗∗,43.797∗∗∗,43.165∗∗∗,43.164∗∗∗,43.164∗∗∗,43.172∗∗∗
+MktMom,(55.22),(55.21),(55.23),(55.22),(46.32),(46.32),(46.33),(46.32),(39.22),(39.22),(39.22),(39.25)
+Firm Characteristics Controlled?,No,No,Yes,Yes,No,No,Yes,Yes,No,No,Yes,Yes
+Month and Industry FEs,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Observations,546458,546458,546458,546458,270922,270922,270922,270922,275536,275536,275536,275536
+Adj. R2,0.16,0.16,0.16,0.16,0.21,0.21,0.21,0.21,0.12,0.12,0.12,0.12

@@ -1,0 +1,14 @@
+Empty Cell,OLS-OLS3+H,PLS,PCR,ENet + H
+Huber Loss,ξ = 0.999,–,–,ξ = 0.999
+Hyper Param,,P = 94,P = 94,"α ∈ (10e−4, 10e−1)"
+Hyper Param,Ensemble: 10,,,ρ = 0.5
+,,,,Ensemble: 10
+,GLM + H,RF,GBRT + H,NN1-NN5
+Huber Loss,ξ = 0.999,–,ξ = 0.999,–
+Hyper Param,"α ∈ (10e−4, 10e−1)",Nb trees: 300,Nb trees: 1000,Batch size: 10000
+Hyper Param,Ensemble: 10,"Depth ∈ (1, 6)","Depth ∈ (1, 2)",Nb epoch: 100
+Hyper Param,,Bootstrap:True,"Learning rate: {0.01,0.1}",Learning rate: 0.01
+Hyper Param,,,,Adam: Default
+Hyper Param,,,,Ensemble: 10
+Hyper Param,,,,Patience: 10
+Hyper Param,,,,"L1 pen ∈ (10−5, 10−3)"

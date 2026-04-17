@@ -1,0 +1,47 @@
+Empty Cell,λ0 in Black3,λ0 in Christie4,λ1 in Duffee2,λ2 in Duffee2
+Panel A (σt1),Panel A (σt1),Panel A (σt1),Panel A (σt1),Panel A (σt1)
+Energy,−0.383,−0.373,0.543**,0.170
+Energy,[0.768],[0.941],[2.064],[0.620]
+Raw Materials,−0.922***,−0.696***,1.099***,0.402***
+Raw Materials,[3.741],[5.338],[7.348],[2.921]
+Industry,−0.689**,−0.523***,0.819***,0.296***
+Industry,[2.122],[4.646],[6.647],[3.261]
+Non-daily Consumptions,0.056,−0.355,0.688***,0.333**
+Non-daily Consumptions,[0.043],[1.564],[3.286],[2.166]
+Daily Consumptions,−0.877***,−0.701,0.534,−0.168
+Daily Consumptions,[3.109],[1.815],[1.761],[0.819]
+Health and Medicals,−0.862***,−0.683***,0.868***,0.185
+Health and Medicals,[3.152],[4.174],[4.784],[1.306]
+Finance,−2.081,−0.475,1.173,0.698
+Finance,[1.863],[1.715],[1.816],[1.153]
+Information Technology,−0.533**,−0.597***,0.823***,0.226***
+Information Technology,[2.058],[5.011],[6.504],[2.678]
+Telecommunication,−1.113***,−0.793***,1.129***,0.336
+Telecommunication,[3.858],[3.577],[4.333],[1.786]
+Public Service,6.445,0.050,0.982,1.032***
+Public Service,[0.758],[0.021],[0.472],[3.224]
+Real Estate,−1.286,−2.453,2.115,−0.337
+Real Estate,[.],[.],[.],[.]
+Panel B (σt2),Panel B (σt2),Panel B (σt2),Panel B (σt2),Panel B (σt2)
+Energy,−0.372,−0.219,1.392***,1.174**
+Energy,[0.849],[0.507],[3.932],[2.395]
+Raw Materials,−0.903**,−0.514**,1.172***,0.658***
+Raw Materials,[2.250],[2.573],[5.472],[3.444]
+Industry,−1.627,−0.604***,1.082***,0.477***
+Industry,[1.519],[4.689],[6.648],[3.579]
+Non-daily Consumptions,0.823,−0.259,0.375,0.116
+Non-daily Consumptions,[1.013],[0.814],[1.158],[0.585]
+Daily Consumptions,−0.152,−0.050,0.298,0.247
+Daily Consumptions,[0.300],[0.110],[0.670],[1.012]
+Health and Medicals,−0.745**,−0.729***,0.976***,0.247
+Health and Medicals,[2.227],[2.885],[2.705],[1.022]
+Finance,−1.909,−0.079,0.861,0.782
+Finance,[1.669],[0.228],[1.048],[1.072]
+Information Technology,−0.621**,−0.336**,0.685***,0.349***
+Information Technology,[2.506],[2.145],[3.306],[2.740]
+Telecommunication,−0.882***,−0.748***,1.468***,0.719**
+Telecommunication,[5.044],[3.311],[4.539],[2.401]
+Public Service,4.380,−0.094,1.300,1.206
+Public Service,[0.668],[0.038],[0.743],[1.689]
+Real Estate,0.038,−0.604,0.592,−0.012
+Real Estate,[.],[.],[.],[.]

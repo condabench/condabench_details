@@ -1,0 +1,11 @@
+Empty Cell,Best Expert,Fixed Combination,Fixed Combination,Adaptative Mixture,Adaptative Mixture,Oracle
+Empty Cell,NN2,PtfUNI,Best Convex,Best Convex,PtfBOA,Best Convex
+Empty Cell,NN2,PtfUNI,on Valid. Set,One-year Rolling,PtfBOA,Best Convex
+Ann. Ret.,0.37,0.27,0.27,0.32,0.36,0.37
+Vol.,0.14,0.11,0.12,0.12,0.13,0.13
+SR,2.67,2.54,2.29,2.57,2.73,2.76
+Skew,2.48,1.2,0.84,1.69,3.0,3.21
+Kurt,16.41,10.73,5.3,8.95,18.85,22.2
+Max DD,0.14,0.2,0.16,0.14,0.09,0.08
+Max Loss,0.13,0.15,0.09,0.11,0.05,0.08
+Turnover,0.52,0.82,1.05,0.75,0.79,0.73

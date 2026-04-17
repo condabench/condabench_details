@@ -1,0 +1,39 @@
+{
+  "id": "anikannal/solar-power-generation-data",
+  "id_no": 836676,
+  "datasetSlugNullable": "solar-power-generation-data",
+  "ownerUserNullable": "anikannal",
+  "usabilityRatingNullable": 1.0,
+  "titleNullable": "Solar Power Generation Data",
+  "subtitleNullable": "Solar power generation and sensor data for two power plants.",
+  "descriptionNullable": "This data has been gathered at two solar power plants in India over a 34 day period. It has two pairs of files - each pair has one power generation dataset and one sensor readings dataset. The power generation datasets are gathered at the inverter level - each inverter has multiple lines of solar panels attached to it. The sensor data is gathered at a plant level - single array of sensors optimally placed at the plant.\n\nThere are a few areas of concern at the solar power plant - \n1. Can we predict the power generation for next couple of days? - this allows for better grid management\n2. Can we identify the need for panel cleaning/maintenance?\n3. Can we identify faulty or suboptimally performing equipment?",
+  "datasetId": 836676,
+  "datasetSlug": "solar-power-generation-data",
+  "hasDatasetSlug": true,
+  "ownerUser": "anikannal",
+  "hasOwnerUser": true,
+  "usabilityRating": 1.0,
+  "hasUsabilityRating": true,
+  "totalViews": 541204,
+  "totalVotes": 920,
+  "totalDownloads": 47498,
+  "title": "Solar Power Generation Data",
+  "hasTitle": true,
+  "subtitle": "Solar power generation and sensor data for two power plants.",
+  "hasSubtitle": true,
+  "description": "This data has been gathered at two solar power plants in India over a 34 day period. It has two pairs of files - each pair has one power generation dataset and one sensor readings dataset. The power generation datasets are gathered at the inverter level - each inverter has multiple lines of solar panels attached to it. The sensor data is gathered at a plant level - single array of sensors optimally placed at the plant.\n\nThere are a few areas of concern at the solar power plant - \n1. Can we predict the power generation for next couple of days? - this allows for better grid management\n2. Can we identify the need for panel cleaning/maintenance?\n3. Can we identify faulty or suboptimally performing equipment?",
+  "hasDescription": true,
+  "isPrivate": false,
+  "keywords": [
+    "renewable energy"
+  ],
+  "licenses": [
+    {
+      "nameNullable": "copyright-authors",
+      "name": "copyright-authors",
+      "hasName": true
+    }
+  ],
+  "collaborators": [],
+  "data": []
+}

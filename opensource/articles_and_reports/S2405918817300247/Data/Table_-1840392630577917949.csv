@@ -1,0 +1,5 @@
+ANOVAa,ANOVAa,ANOVAa,ANOVAa,ANOVAa,ANOVAa,ANOVAa
+Model,Model.1,Sum of squares,Df,Mean square,F,Sig.
+1,Regression,1.71,3,0.57,0.347,.800b
+1,Residual,3.29,2,1.645,,
+1,Total,5.0,5,,,

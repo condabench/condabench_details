@@ -1,0 +1,654 @@
+<?php Header("Cache-Control: max-age=3000, must-revalidate"); ?>
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head prefix='og: http://ogp.me/ns#'>
+
+	<!-- Add Custom Meta Data -->
+	
+<meta content="college tuition,college costs,how much will college cost" name="keywords" />
+
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<meta content="How much will college really cost? Find out with Tuition Tracker, from @hechingerreport, @EdWriters and" name="description" />
+<title>Tuition Tracker</title>
+<meta property="og:url" content="http://www.tuitiontracker.org" />
+<meta property="og:title" content="Tuition Tracker"/>
+<meta property="og:description" content="How much will college really cost? Find out with Tuition Tracker, from @hechingerreport, @EdWriters and" name="description"/>
+<meta property="og:image" content="http://www.tuitiontracker.org/images/tuitiontracker.gif"/>
+<meta property="og:image:height" content="345"/>
+<meta property="og:image:width" content="596"/>
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@hechingerreport" />
+<meta name="twitter:creator" content="@hechingerreport" />
+<meta name="twitter:image" content="http://www.tuitiontracker.org/images/tuitiontracker.gif">
+
+<meta name="liveFyreID" content="73293394307" />
+
+<script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "NewsArticle",
+        "headline": "Tuition Tracker",
+        "url": "http://www.tuitiontracker.org",
+        "thumbnailUrl": "http://www.tuitiontracker.org/images/tuitiontracker.gif",
+        "dateCreated": "2023-11-28T00:00:00Z",
+        "articleSection": "&lt;Section&gt;",
+        "keywords": ["college tuition","college costs","how much will college cost"]
+      }
+</script>
+
+<meta property="og:keywords" content="college tuition,college costs,how much will college cost"/>
+
+<meta name="news_keywords" content="college tuition,college costs,how much will college cost"/>
+
+	<!-- End Custom Meta Data -->
+
+	<meta property="fb:app_id" content="<<client FB app id>>"/>
+	<meta property="fb:page_id" content="<<client FB page id>>"/>
+	<meta property="fb:admins" content="<<client FB admins id>>"/>
+
+	<link rel="shortcut icon" type="image/x-icon" href="images/_tt-favicon.png"/>
+	<link href='//fonts.googleapis.com/css?family=Lato:100,300,700,900|PT+Serif:400,400italic,700,700italic|Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" type="text/css" href="css/styles-bundle.css?v=1" />
+
+	<script src="//code.jquery.com/jquery-2.2.3.min.js"></script>
+
+	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	
+<link rel="canonical" href="http://www.tuitiontracker.org" />
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2DBQW0NLND"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2DBQW0NLND');
+</script>
+
+<script src="https://use.fontawesome.com/0a49b9235d.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
+   integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+   crossorigin=""/>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+
+<style scoped>
+  body {
+    background-color: #fff;
+  }
+  #retention-chart, #aid-chart, #grad-rates-chart {
+    width:100%;
+    height:400px; 
+  }
+  #sticker-price-chart {
+    width:100%;
+    height:450px; 
+  }
+  @media (max-width: 500px) {
+    #retention-chart, #aid-chart, #sticker-price-chart, #grad-rates-chart {
+      height:290px; 
+    }
+  }
+  .label-projected {
+    text-transform:uppercase;
+    font-weight:700;
+    font-size:10px;
+    opacity:.5;
+    font-family:Lato;
+  }
+            .stop-left {
+                stop-opacity: .2;  
+                stop-color: #D2392A;
+            }
+
+            .stop-right {
+                stop-opacity: 0; 
+                stop-color: #D2392A;
+            }
+</style>
+
+<script>
+  window.twttr = (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0],
+      t = window.twttr || {};
+    if (d.getElementById(id)) return t;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "https://platform.twitter.com/widgets.js";
+    fjs.parentNode.insertBefore(js, fjs);
+
+    t._e = [];
+    t.ready = function(f) {
+      t._e.push(f);
+    };
+
+    return t;
+  }(document, "script", "twitter-wjs"));
+</script>
+
+
+
+
+</head>
+<body>
+ 
+
+	<article id="content">
+
+	
+
+
+<!--/top-nav deactivated-->
+    <div class="topnav">
+      <div class="logo-container"><a href="./"><img src="./images/_tuition-tracker-logoc.png" alt="Tuition Tracker" id="nav-logo"></a></div>
+              <div class="choose-variable-topnav">
+                <select class="choose-topnav" id="choose-family-income-bracket-topnav">
+                      <option value='0' selected>Change family income</option>
+                      <option value='1'>$0 - $30,000</option>
+                      <option value='2'>$30,001 - $48,000</option>
+                      <option value='3'>$48,001 - $75,000</option>
+                      <option value='4'>$75,001 - $110,000</option>
+                      <option value='5'>$110,001+</option>
+                </select>
+                </div>
+  <!--     <div class="topnav-nav-links">
+        <a class="active" href="#home">Net Price</a><div>|</div>
+        <a href="#grad-rates">Success Rates</a><div>|</div>
+        <a href="#grants-loans">Financial Aid</a><div>|</div>
+        <a href="#demographics">Demographics</a>
+      </div> -->
+      <div class="school-name" id="school-name-nav-bar"></div>
+    </div>
+    <div class="search-nav search-group">
+
+      <form class="searchbox" novalidate>
+        <input id="schools-searchbar" class="results-seach-container searchbox-input" placeholder="Ex. Florida State University, FSU" required/>
+        <div class="results-box"><button id="results-search" class="box"><span>GO</span></button><button id="results-close" class="box" type="button"><span>X</span></button></div>
+        <span class="searchbox-icon"><i class="fas fa-search"></i></span>
+      </form>
+
+    </div>
+  <aside id="school-stats">
+
+<!--     <div class="stats-group">
+      <div class="stats-info" id="stats-url"><a href="" target="_blank">Website</a></div>
+      <div class="stats-info" id="stats-type">--</div>
+      <div class="stats-info" id="stats-degree"><span><strong></strong></span>-year degree</div>
+      <div class="stats-info" id="stats-hbcu">Historically Black College/Univ. (HBCU)</div>
+      <div class="stats-info" id="stats-tribal">Tribal college</div>
+    </div> -->
+    <div id="tracker-pullout-container" style="display:none">
+      <div id="root" class="school-stats school-group-container">
+      </div>
+      <div id="tracker-pullout" style="display:none" class="pullout"><i class="symbol fas fa-chevron-left"></i><i class="symbol fas fa-chevron-right"></i><div>Track schools</div><i class="symbol fas fa-chevron-right"></i><i class="symbol fas fa-chevron-left"></i></div>
+      
+      
+    
+    </div>
+
+  </aside>
+  <!--/school-stats-->
+
+      <div id="school-profile-container">
+        <section class="school-profile">
+          <div id="school-well">
+            <div class="school-container">
+              <div class="school-header">
+                <div id="ad-placeholder">
+                </div>
+                <div class="school-name-container">
+                  <div>
+                  <div class="school-name" id="school-name-main"></div>
+                  <div class="city-state-label city-state-label-desktop"></div>
+                  </div>
+                </div>
+                  <div class="school-details-categories">
+                    <div class="mobile-stats-info" id="mobile-stats-type"><i id="diploma-icon-big" class="fas fa-graduation-cap fa-3x"></i><span id="mobile-stats-control"></span></div>
+                    <div class="mobile-stats-info" id="mobile-stats-degree"><span><strong></strong></span>year</div>
+                    <div class="mobile-stats-info" id="mobile-stats-hbcu">Historically Black College/Univ. (HBCU) <br/><span></span></div>
+                    <div class="mobile-stats-info" id="mobile-stats-acc-rate"><span>--</span>Acceptance rate (2022)</div>
+                    <div class="mobile-stats-info" id="mobile-stats-sticker"><span>--</span>Pay sticker price (2021)</div>
+                    <div style="display:none;" class="mobile-stats-info" id="mobile-stats-debt-warning"><div><i id="diploma-icon-big" class="fas fa-dollar-sign fa-3x"></i></div><div>High debt</div></div>
+                  </div>
+              </div>
+              <div class="mobile-map-container stats-mobile">
+                    <div class="mobile-stats-info city-state-label city-state-label-mobile" ></div>
+                    <div id="locator-map" style="opacity:0" class="locator-map"></div>
+              </div>
+            </div>
+            
+            <div class="promo-mod promo-content-bdr">
+              <div class="promo-bdr promo-bdr--top"></div>
+              <div class="promo-signup-inner">
+                <div class="promo-hdr">
+                    <div id="price">
+                      <div class="price-header">Sticker price (2024-25)</div>
+                          <div class="price-label" id="sticker-price"></div>
+                          <div class="fine-print">What we project the school will advertise as the cost of attendance for living 
+                            <span id="sticker-living"></span> 
+                          </div>
+                    </div>
+                    <div id="net-price">
+                      <div class="price-header">Net price (2024-25)</div>
+                      <div class="price-label" id="calculated-net-price"></div>
+                      <div class="fine-print">What we project students in the <span id="bracket" class="net-span">--</span> income bracket will actually pay</div>
+                    </div>
+                </div>
+                
+              </div> <!-- /promo-inner -->
+              <div class="promo-bdr promo-bdr--bottom"></div>
+            </div>
+
+
+            <div id="selection-bar">
+              <div class="call-container"><div class="call-to-action"><div><p class="call-to-action-bold">SELECT INCOME BRACKET</p></div></div></div>
+
+              <div class="choose-variable">
+                <select class="choose" id="choose-family-income-bracket">
+                      <option value='1' selected>$0 - $30,000</option>
+                      <option value='2'>$30,001 - $48,000</option>
+                      <option value='3'>$48,001 - $75,000</option>
+                      <option value='4'>$75,001 - $110,000</option>
+                      <option value='5'>$110,001+</option>
+                </select>
+              <div class="select-arrow"></div>
+              </div>
+            </div>
+            <div class="how-we-know"><div class="how-we-know-inner">How do we know?</div></div>
+            <div class="how-we-know-text"><div class="how-we-know-close">X</div><div class="how-we-know-text-inner"><h4>Projecting net prices</h4><p>It is difficult to predict what the average student will pay in the future, as the federal government publishes data with several years of delays.</p><p>The Hechinger Report projected sticker prices for the 2023-2024 academic year using the average 10-year growth rate. We estimate net price by using the percentage difference between sticker price and net price from the latest year it is available (2020-21) and applying that discount rate to the projected 2023-24 sticker price.</p><p>As a result, these numbers are an approximation, not an exact figure. To get a more accurate estimate of your costs, visit the school's net price calculator.</div></div>
+          </div>
+          <div class="section-end">
+          </div>
+        </section>
+        <section class="family-income">
+          <header class="section-header">Historical price trend</header>
+          <div id="selection-bar" style="display:none">
+            <div class="call-container"><div class="call-to-action"><div>Select an income bracket to see net price</div></div></div>
+          </div>
+        <section class="graphic">
+          <div class="legend-container">
+          <div class="legend-square sticker-price-legend"><span>Sticker</span><span> price</span></div>
+          <div class="legend-square net-price-legend"><div class="legend-square-net-container"><span class="legend-square-net">Net</span><span class="legend-square-inner"> price for </span></div>
+          <div class="choose-variable-chart">
+              <select class="choose" id="price-bracket">
+                    <option value='1' selected>$0 - $30,000</option>
+                    <option value='2'>$30,001 - $48,000</option>
+                    <option value='3'>$48,001 - $75,000</option>
+                    <option value='4'>$75,001 - $110,000</option>
+                    <option value='5'>$110,001+</option>
+              </select>
+            <div class="select-arrow"></div>
+          </div><span class="legend-square-inner">income bracket</span></div>
+        </div>
+          
+
+          <div class="chart" id="sticker-price-chart-container">
+            <svg id="sticker-price-chart"></svg>
+            <div class="freeze"><div class="freeze-flag">FREEZE</div><div>This institution has frozen tuition at some point in the past decade, making it harder to predict price trends. Forecast may differ from final price.</div></div>
+            <div class="reset"><div class="reset-flag">RESET</div><div>This institution significantly dropped tuition at some point in the past decade, making it harder to predict price trends. Forecast may differ from final price.</div></div>
+            <p class="note">Historical sticker-price data up to 2022-23 and net price up to 2021-22 provided by NCES. Data for following years projected from Hechinger Report analyses. Shaded area calculated using highest and lowest historical discount rate for average incoming freshman in income level. In-state tuition figures are used.</p>
+          </div>
+          <!-- <div class="no-data-placeholder" id="sticker-price-placeholder">No data available for school</div> -->
+        </section>
+
+        <section id="family-income-container">
+        <div class="embed-code"><span id="embed-code">&nbsp;&nbsp;Embed this chart on your site</span></div>
+        <div class="show-table"><i class="fas fa-table"></i>&nbsp;&nbsp;Click to <span id="show-hide">show</span> net prices for all income brackets</div>
+
+        <div class="graphic" id="family-income-table">
+
+            <header class="call-to-action">Select a school year to modify the chart</header>
+
+            <div class="choose-variable">
+              <select id="choose-year-family-income">
+                  <option value='2'>2015-16</option>
+                  <option value='3'>2014-15</option>
+                  <option value='4'>2013-14</option>
+                  <option value='5'>2012-13</option>
+                  <option value='6'>2011-12</option>
+                  <option value='7'>2010-11</option>
+                  <option value='8'>2009-10</option>
+                  <option value='9'>2008-09</option>
+              </select>
+              <div class="select-arrow"></div>
+            </div>
+
+
+            <table id="family-income-table" class="table-responsive-full sort-table">
+              <thead>
+                <tr>
+                  <th class="income">Annual family income
+                    <div class="sort-table-arrows"></div>
+                  </th>
+                  <th class="price"><span class="avg-price-text">Avg. net price</span>
+                    <div class="sort-table-arrows">
+                      <a href="javascript:sort(true, 'net-price', 'family-income-table');"><button class="button" title=""><i class="fa fa-chevron-down"></i></button></a>
+                      <a href="javascript:sort(false, 'net-price', 'family-income-table');"><button class="button" title=""><i class="fa fa-chevron-up"></i></button></a>
+                    </div>
+                  </th>
+                  <th class="num-families"><span class="num-families-text">No. students paying this price</span>
+                    <div class="sort-table-arrows">
+                      <a href="javascript:sort(true, 'num-students', 'family-income-table');"><button class="button" title=""><i class="fa fa-chevron-down"></i></button></a>
+                      <a href="javascript:sort(false, 'num-students', 'family-income-table');"><button class="button" title=""><i class="fa fa-chevron-up"></i></button></a>
+                    </div>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+
+              </tbody>
+            </table>
+        </div>
+      </section>
+              <!--/family-income-->
+
+          
+          <!--/graphic-->
+
+          <div class="definition-contd">
+            <em>Net price is calculated by subtracting federal, state, local and institutional grants and scholarships from the sticker price for first-time, full-time (and, at public universities, in-state) undergraduates. Net price data shown above includes only families of students who received some form of federal student aid, including loans, since others are not tracked.</em>
+          </div>
+
+
+      <!--/net-price-->
+      <div class="cost-header"><div>Success rates</div></div>
+      <div id="grad-rates">
+
+          <header class="section-header">Graduation rates by race</header>
+
+          <p class="tagline">Rate of students who earn a bachelor’s degree within six years of starting or an associate degree within three years over the last five years.</p>
+
+          <section class="graphic">
+            <div class="chart" id="grad-rates-container">
+              <svg id="grad-rates-chart"></svg>
+              <p class="note">Graduation rates are not perfect measures of school quality, but a low rate could mean many students are dropping out or taking too long to finish, which pushes up the cost of their education. <a href="https://hechingerreport.org/embattled-colleges-focus-on-an-obvious-fix-helping-students-graduate-on-time/">Read more</a></p>
+            </div>
+
+            <div class="no-data-placeholder" id="grad-placeholder">No data available for school</div>
+          </section>
+
+
+      </div>
+      <!--/grad rates-->
+      <div id="retention-rates">
+
+         <header class="section-header">Retention rates by type</header>
+         <p class="tagline">Percentage of freshmen at four-year colleges who returned the following fall or, at two-year colleges, who completed their credentials or returned after one year over the last five years.</p>
+
+         <section class="graphic" id="retention-container">
+           <div class="chart" id="retention-rates-container">
+              <svg id="retention-rates-chart"></svg>
+              <p class="note"></p>
+            </div>
+
+            <div class="no-data-placeholder" id="retention-placeholder">No data available for school</div>
+         </section>
+
+       </div>
+       <!--/retention-rates-->
+       <!--/cost-def-->
+
+      
+
+
+      <div id="grants-loans">
+
+        <div class="cost-def">
+          <div class="cost-header"><div>Financial aid</div></div>
+
+          <div class="definition emphasis-def">Financial aid from colleges and the federal government can significantly reduce the cost of attendance.</div>
+        </div>
+        <!--/cost-def-->
+
+        <header class="section-header">Grants and loans</header>
+        <p class="tagline">The federal government, many state governments and colleges themselves award grants; like scholarships, they do not have to be repaid. Federal loans must be repaid with interest and often carry fees.</p>
+
+        <div class="switch-field">
+          <input type="radio" id="switch-amt-aid" name="switch-btn-aid" value="aid_amt" checked/>
+          <label for="switch-amt-aid">Avg. amount</label>
+          <input type="radio" id="switch-num-aid" name="switch-btn-aid" value="aid_pct" />
+          <label for="switch-num-aid">% students</label>
+        </div>
+
+        <section class="graphic">
+          <div class="legend-square"><span class="key non-pell-line"></span>Any federal, state, local or institutional grants</div>
+          <div class="legend-square"><span class="key pell-line"></span>Pell grants</div>
+          <div class="legend-square"><span class="key loans"></span>Federal loans</div>
+
+          <div class="chart" id="aid-container">
+            <svg id="aid-chart"></svg>
+          </div>
+          <p class="note">Average amount and percentage data for first-time, full-time undergraduates</p>
+        </section>
+
+        <div class="no-data-placeholder" id="aid-placeholder">No data available for this school</div>
+
+
+     </div>
+     <!--/grants-loans-->
+
+     <div id="demographics">
+
+         <div class="cost-header"><div>Demographics</div></div><br/>
+         <header class="section-header">Enrollment (2021-22)</header>
+         <div class="enrollment-stats-container">
+           <div class="tagline enrollment-stat ft-enrollment">Total undergraduate enrollment:&nbsp; <span class="info"></span></div>
+         </div>
+        <div id="gender-bars">
+          <div class="bar-group">
+             
+             <div class="pct-bar"><span class="gender-bar" id="gender-pct-female" data-pct=""></span><span class="gender-bar" id="gender-pct-male" data-pct=""></div>
+              <div class="bar-group-labels"> <p class="bar-label">Female<span class="bar-label" id="female-enrollment"></span></p><p id="bar-label-male" class="bar-label">Male<span class="bar-label" id="male-enrollment"></span></p></div>
+           </div>
+        </div>
+
+        <section class="graphic" id="gender-container" hidden>
+          <p class="tagline">Enrollment by gender</p>
+          <div class="chart" id="gender-container">
+             <svg id="gender-chart"></svg>
+           </div>
+        </section>
+
+         <section class="graphic" id="demo-container">
+          <p class="tagline" id="race-tagline" hidden>Enrollment by race</p>
+           <div class="chart" id="demographics-container">
+              <svg id="demographics-chart"></svg>
+            </div>
+         </section>
+
+       </div>
+     <!-- <div id="demographics">
+
+         <div class="cost-header"><div>Demographics</div></div><br/>
+         <header class="section-header">Enrollment</header>
+
+       <div class="enrollment-stats-container">
+         <p class="tagline enrollment-stat ft-enrollment">Total undergraduate enrollment:&nbsp; <span class="info"></span></p>
+       </div>
+
+       <div id="gender-bars">
+        <div class="bar-group">
+           <div class="bar-group-labels"> <p class="bar-label">Female<span class="bar-label" id="male-enrollment"></span></p><p class="bar-label">Male<span class="bar-label" id="male-enrollment"></span></p></div>
+           <div class="pct-bar"><span class="gender-bar" id="gender-pct-female" data-pct=""></span><span class="gender-bar" id="gender-pct-male" data-pct=""></div>
+         </div>
+      </div> -->
+
+<!--        <div id="enrollment-bars">
+           <div class="bar-group">
+             <p class="bar-label">White: <span class="label-data" id="white"></span></p>
+             <div class="pct-bar"><span class="bar-data" id="left-white" data-left=""></span><span class="race-bar" id="pct-white" data-pct=""></span> </div>
+           </div>
+           <div class="bar-group">
+             <p class="bar-label">Black / African-American: <span class="label-data" id="black"></span></p>
+             <div class="pct-bar"><span class="race-bar" id="pct-black" data-pct=""></span><span class="bar-data" id="left-black" data-left=""></span></div>
+           </div>
+           <div class="bar-group">
+             <p class="bar-label">Hispanic / Latino: <span class="label-data" id="hispanic"></span></p>
+             <div class="pct-bar"><span class="race-bar" id="pct-hisp" data-pct=""></span><span class="bar-data" id="left-hisp" data-left=""></span></div>
+           </div>
+           <div class="bar-group">
+             <p class="bar-label">Asian: <span class="label-data" id="asian"></span></p>
+             <div class="pct-bar"><span class="race-bar" id="pct-asian" data-pct=""></span><span class="bar-data" id="left-asian" data-left=""></span></div>
+           </div>
+           <div class="bar-group">
+             <p class="bar-label">American Indian / Alaska Native: <span class="label-data" id="am-ind"></span></p>
+             <div class="pct-bar"><span class="race-bar" id="pct-am-ind" data-pct=""></span><span class="bar-data" id="left-am-ind" data-left=""></span></div>
+           </div>
+           <div class="bar-group">
+             <p class="bar-label">Native Hawaiian / Other Pacific Islander: <span class="label-data" id="nat-hi-pac-isl"></span></p>
+             <div class="pct-bar"><span class="race-bar" id="pct-nat-hi-pac-isl" data-pct=""></span><span class="bar-data" id="left-nat-hi-pac-isl" data-left=""></span></div>
+           </div>
+           <div class="bar-group">
+             <p class="bar-label">Two or more races: <span class="label-data" id="two-more"></span></p>
+             <div class="pct-bar"><span class="race-bar" id="pct-two-more" data-pct=""></span><span class="bar-data" id="left-two-more" data-left=""></span></div>
+           </div>
+           <div class="bar-group">
+             <p class="bar-label">No race reported: <span class="label-data" id="no-race"></span></p>
+             <div class="pct-bar"><span class="race-bar" id="pct-no-race" data-pct=""></span><span class="bar-data" id="left-no-race" data-left=""></span></div>
+           </div>
+           <p class="note">Data for nonresident students not shown.</p>
+         </div>
+
+     </div> -->
+     <!--/demographics-->
+
+
+    </div>
+    <!--/school-well-->
+
+
+  </div>
+  <!--/content-well-->
+
+  <section class="clearfix" id="footer">
+    <div class="ftr-bottom">
+ <!-- Site Nav & Copyright -->
+<div class="site-nav-copyright">
+  <p class="ftr-info-msg">The Hechinger Report covers inequality and innovation in education with in-depth journalism that uses research, data and stories from classrooms and campuses to show the public how education can be improved and why it matters.</p>
+  <nav class="ftr-site-nav">
+
+    <ul class="ftr-nav-items l-ftr-nav" style="padding-left:40px">
+
+        <li class="ftr-nav-item">
+          <a class="ftr-nav-link" href="https://hechingerreport.org/about/" previewlistener="true">About</a>
+        </li>
+                <li class="ftr-nav-item">
+          <a class="ftr-nav-link" href="https://hechingerreport.org/our-mission/" previewlistener="true">Our Mission</a>
+        </li>
+                <li class="ftr-nav-item">
+          <a class="ftr-nav-link" href="https://hechingerreport.org/contact/" previewlistener="true">Contact Us</a>
+        </li>
+      
+    </ul> <!-- /ftr-nav-items -->
+  </nav> <!-- .ftr-site-nav -->
+    <p class="ftr-copyright-msg">
+      Copyright Ⓒ 2024 by Teachers College at Columbia University. All rights reserved.
+    </p>
+    <p class="ftr-copyright-msg">This website uses cookies as well as similar tools and technologies to understand visitors' experiences. By continuing to use this website, you consent to Teachers College, Columbia University's usage of cookies and similar technologies, in accordance with the <a href="http://www.tc.columbia.edu/policylibrary/Cookie_Notice" previewlistener="true">Teachers College, Columbia University's Website Cookie Notice.</a></p>
+  </div> <!-- .site-nav-copyright -->
+  </div>
+  </section>
+
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script>
+
+
+
+  </script>
+
+  <script>
+  function sort(ascending, columnClassName) {
+      var tbody = document.getElementById("family-income-table").getElementsByTagName(
+          "tbody")[0];
+      var rows = tbody.getElementsByTagName("tr");
+      var unsorted = true;
+      while (unsorted) {
+        unsorted = false
+        for (var r = 0; r < rows.length - 1; r++) {
+          var row = rows[r];
+          var nextRow = rows[r + 1];
+          var value = row.getElementsByClassName(columnClassName)[0].innerHTML;
+          var nextValue = nextRow.getElementsByClassName(columnClassName)[0].innerHTML;
+          value = value.replace(/\,/g, ''); // in case a comma is used in float number
+          nextValue = nextValue.replace(/\,/g, '');
+          value = value.replace(/\$/g, ''); // remove $ to allow sorting
+          nextValue = nextValue.replace(/\$/g, '');
+          value = value.replace(/\%/g, ''); // remove $ to allow sorting
+          nextValue = nextValue.replace(/\%/g, '');
+          if (!isNaN(value)) {
+            value = parseFloat(value);
+            nextValue = parseFloat(nextValue);
+          }
+          if (ascending ? value > nextValue : value < nextValue) {
+            tbody.insertBefore(nextRow, row);
+            unsorted = true;
+          }
+        }
+      }
+    };
+    sort();
+  </script>
+
+
+
+
+	</article>
+	<div>
+	
+
+	
+	</div>
+		<script
+  src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"
+  integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E="
+  crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/scripts-bundle.js"></script>
+
+	
+	<script type="text/javascript"></script>
+
+
+
+
+	
+<script type="text/javascript">
+  var storyTitle = "&lt;Text&gt;", // headline in tweet card
+	storyURL = "http://www.tuitiontracker.org",
+	leadText = "How much will college really cost? Find out with Tuition Tracker, from @hechingerreport, @EdWriters and", //description in tweet card
+	storyIMG = "http://www.tuitiontracker.org/images/tuitiontracker.gif",
+	storyAuthor = "Peter D&#39;Amato",
+	twitterTag = "hechingerreport";
+</script>
+
+
+</body>
+</html>

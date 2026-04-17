@@ -1,0 +1,21 @@
+Panel A. 12-Month Look-back,Panel A. 12-Month Look-back,Panel A. 12-Month Look-back,Panel A. 12-Month Look-back
+Empty Cell,Cluster-optimized,Market,Markowitz
+Average Monthly Excess Return (%),−0.36,−0.80,−1.21
+Standard Deviation (%),7.09,6.53,8.59
+Average Difference in Sharpe-ratio,0,0.24∗∗,−0.03
+Z-Statistic,,(7.58),(0.88)
+Max Quarterly Loss,−7.95,−9.72,−15.38
+Panel B. 60-Month Look-back,Panel B. 60-Month Look-back,Panel B. 60-Month Look-back,Panel B. 60-Month Look-back
+,Cluster-optimized,Market,Markowitz
+Average Monthly Excess Return (%),−0.03,−0.76,−0.54
+Standard Deviation (%),7.17,6.56,6.25
+Average Difference in Sharpe-ratio,0,0.42∗∗,0.24∗∗
+Z-Statistic,,(13.14),(8.33)
+Max Quarterly Loss,−8.59,−9.72,−11.53
+Panel C. 120-Month Look-back,Panel C. 120-Month Look-back,Panel C. 120-Month Look-back,Panel C. 120-Month Look-back
+,Cluster-optimized,Market,Markowitz
+Average Monthly Excess Return (%),0.07,−0.58,−0.31
+Standard Deviation (%),6.64,6.28,5.58
+Average Difference in Sharpe-ratio,0,0.35∗∗,0.21∗
+Z-Statistic,,(12.82),(8.32)
+Max Quarterly Loss,−12.49,−11.44,−6.40

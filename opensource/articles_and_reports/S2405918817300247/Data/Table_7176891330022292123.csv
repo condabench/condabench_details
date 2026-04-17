@@ -1,0 +1,9 @@
+Empty Cell,VFTSE,VTOTAL,VPOS,VNEG
+VFTSE,VFTSE,VFTSE,VFTSE,VFTSE
+Pearson Correlation Sig. (2-tailed),1,.276 .577,.263 .618,.158 .762
+VTOTAL,VTOTAL,VTOTAL,VTOTAL,VTOTAL
+Pearson Correlation Sig. (2-tailed),.284 .576,1,.947a .003,.958a .001
+VPOS,VPOS,VPOS,VPOS,VPOS
+Pearson Correlation Sig. (2-tailed),.263 .618,.947a .003,1,.951a .003
+VNEG,VNEG,VNEG,VNEG,VNEG
+Pearson Correlation Sig. (2-tailed),.167 .761,.958a .001,.951a .003,1

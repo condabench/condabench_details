@@ -1,0 +1,9 @@
+Empty Cell,Best Expert (NN2),PtfUNI,Original BOA,Pre-trained BOA
+Ann Ret,0.37,0.27,0.36,0.36
+Vol,0.14,0.11,0.13,0.13
+SR,2.67,2.54,2.73,2.75
+Skew,2.48,1.2,3.0,3.02
+Kurt,16.41,10.73,18.85,19.01
+Max DD,0.14,0.2,0.09,0.1
+Max Loss,0.13,0.15,0.05,0.05
+Turnover,1.23,1.22,1.23,1.23

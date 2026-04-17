@@ -1,0 +1,12 @@
+Panel A. 12-Month Look-back,Panel A. 12-Month Look-back,Panel A. 12-Month Look-back,Panel A. 12-Month Look-back,Panel A. 12-Month Look-back
+Empty Cell,Mean,Min,Median,Max
+Cluster-optimized,1401,324,1156,2818
+Markowitz,1372,48,1156,2818
+Panel B. 60-Month Look-back,Panel B. 60-Month Look-back,Panel B. 60-Month Look-back,Panel B. 60-Month Look-back,Panel B. 60-Month Look-back
+,Mean,Min,Median,Max
+Cluster-optimized,865,221,796,1843
+Markowitz,709,18,575,1843
+Panel C. 120-Month Look-back,Panel C. 120-Month Look-back,Panel C. 120-Month Look-back,Panel C. 120-Month Look-back,Panel C. 120-Month Look-back
+,Mean,Min,Median,Max
+Cluster-optimized,568,179,579,1177
+Markowitz,437,30,341,1177

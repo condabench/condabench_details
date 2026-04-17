@@ -1,0 +1,22 @@
+Panel A. Sample of 2018,Panel A. Sample of 2018,Panel A. Sample of 2018,Panel A. Sample of 2018,Panel A. Sample of 2018,Panel A. Sample of 2018,Panel A. Sample of 2018,Panel A. Sample of 2018,Panel A. Sample of 2018,Panel A. Sample of 2018,Panel A. Sample of 2018,Panel A. Sample of 2018,Panel A. Sample of 2018
+Variables,Daily Stock Return (DRet),Daily Stock Return (DRet),Daily Stock Return (DRet),Daily Stock Return (DRet),Daily Stock Return (DRet),Daily Stock Return (DRet),Daily Stock Return (DRet),Daily Stock Return (DRet),Daily Stock Return (DRet),Daily Stock Return (DRet),Empty Cell,Empty Cell
+Variables,Sample of Positive and Negative CrMom,Sample of Positive and Negative CrMom,Sample of Positive and Negative CrMom,Sample of Positive and Negative CrMom,Sample of Positive CrMom,Sample of Positive CrMom,Sample of Positive CrMom,Sample of Positive CrMom,Sample of Negative CrMom,Sample of Negative CrMom,Sample of Negative CrMom,Sample of Negative CrMom
+Variables,(1),(2),(3),(4),(5),(6),(7),(8),(9),(10),(11),(12)
+CrMom,4.527∗∗∗,4.429∗∗∗,4.458∗∗∗,4.526∗∗∗,4.005∗∗∗,3.974∗∗∗,4.082∗∗∗,3.619∗∗∗,2.961∗∗∗,2.965∗∗∗,3.029∗∗∗,2.555∗∗
+CrMom,(10.94),(10.54),(10.61),(10.34),(4.53),(4.45),(4.57),(3.82),(2.75),(2.75),(2.81),(2.11)
+High Pledge,,−0.046∗∗∗,−0.034∗∗,,,−0.106∗∗∗,−0.091∗∗∗,,,0.032,0.041,
+High Pledge,,(−3.31),(−2.49),,,(−3.17),(−2.71),,,(0.96),(1.22),
+High Pledge × CrMom,,2.247∗∗∗,2.245∗∗∗,,,0.805,0.791,,,2.234∗,2.268∗,
+High Pledge × CrMom,,(2.98),(2.98),,,(0.67),(0.66),,,(1.89),(1.92),
+Zero Pledge,,,,0.021∗∗∗,,,,0.061∗∗∗,,,,−0.020
+Zero Pledge,,,,(3.43),,,,(4.50),,,,(−1.16)
+Zero Pledge × CrMom,,,,0.063,,,,0.997∗,,,,0.939
+Zero Pledge × CrMom,,,,(0.19),,,,(1.89),,,,(1.11)
+Mom,−0.109,−0.111,−0.142,−0.141,0.049,0.045,−0.072,−0.071,−0.810∗∗∗,−0.808∗∗∗,−0.876∗∗∗,−0.875∗∗∗
+Mom,(−0.49),(−0.50),(−0.64),(−0.64),(0.18),(0.16),(−0.27),(−0.26),(−2.99),(−2.98),(−3.20),(−3.20)
+MktMom,35.979∗∗∗,35.980∗∗∗,35.980∗∗∗,35.980∗∗∗,38.885∗∗∗,38.885∗∗∗,38.888∗∗∗,38.887∗∗∗,29.567∗∗∗,29.567∗∗∗,29.565∗∗∗,29.566∗∗∗
+MktMom,(88.51),(88.51),(88.51),(88.49),(84.22),(84.22),(84.22),(84.21),(44.57),(44.57),(44.58),(44.60)
+Firm Characteristics Controlled?,No,No,Yes,Yes,No,No,Yes,Yes,No,No,Yes,Yes
+Month and Industry FEs,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Observations,582358,582358,582358,582358,335146,335146,335146,335146,247212,247212,247212,247212
+Adj. R2,0.29,0.29,0.29,0.29,0.34,0.34,0.34,0.34,0.18,0.18,0.18,0.18

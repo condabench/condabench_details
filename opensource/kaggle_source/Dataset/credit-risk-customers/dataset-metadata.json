@@ -1,0 +1,42 @@
+{
+  "id": "ppb00x/credit-risk-customers",
+  "id_no": 3119852,
+  "datasetSlugNullable": "credit-risk-customers",
+  "ownerUserNullable": "ppb00x",
+  "usabilityRatingNullable": 1.0,
+  "titleNullable": "credit_risk_customers",
+  "subtitleNullable": "Predict if customers are risky or not for credit",
+  "descriptionNullable": "This dataset consists of 20 features of the customers.\nIt could be used to predict if the customer could be given credit.\nMany features require data cleaning.\nThis is a great dataset for practicing data cleaning and feature engineering and building a binary classification model.",
+  "datasetId": 3119852,
+  "datasetSlug": "credit-risk-customers",
+  "hasDatasetSlug": true,
+  "ownerUser": "ppb00x",
+  "hasOwnerUser": true,
+  "usabilityRating": 1.0,
+  "hasUsabilityRating": true,
+  "totalViews": 45707,
+  "totalVotes": 102,
+  "totalDownloads": 7044,
+  "title": "credit_risk_customers",
+  "hasTitle": true,
+  "subtitle": "Predict if customers are risky or not for credit",
+  "hasSubtitle": true,
+  "description": "This dataset consists of 20 features of the customers.\nIt could be used to predict if the customer could be given credit.\nMany features require data cleaning.\nThis is a great dataset for practicing data cleaning and feature engineering and building a binary classification model.",
+  "hasDescription": true,
+  "isPrivate": false,
+  "keywords": [
+    "banking",
+    "classification",
+    "tabular",
+    "english"
+  ],
+  "licenses": [
+    {
+      "nameNullable": "other",
+      "name": "other",
+      "hasName": true
+    }
+  ],
+  "collaborators": [],
+  "data": []
+}

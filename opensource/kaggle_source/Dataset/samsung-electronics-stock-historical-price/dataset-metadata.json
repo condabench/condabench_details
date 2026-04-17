@@ -1,0 +1,44 @@
+{
+  "id": "caesarmario/samsung-electronics-stock-historical-price",
+  "id_no": 1904807,
+  "datasetSlugNullable": "samsung-electronics-stock-historical-price",
+  "ownerUserNullable": "caesarmario",
+  "usabilityRatingNullable": 1.0,
+  "titleNullable": "Samsung Electronics Stock Historical Price ",
+  "subtitleNullable": "005930.KS Stock Price from June 2019 - Present",
+  "descriptionNullable": "# Samsung Electronics Stock Historical Price (005930.KS)\n\n#### from June 2019 until present\n\n---\n\n### \u25b6 Context \ud83d\udcdd\nThe dataset is taken from [Yahoo Finance website](https://finance.yahoo.com/quote/005930.KS/history?p=005930.KS). It is about the historical stock price of Samsung Electronics Co., Ltd.\n\n### \u25b6 Acknowledgements \ud83d\ude4f\n\nI'd like to clarify that I'm only making data about the historical stock price of Samsung Electronics Co., Ltd. available to **Kaggle community**. \n\n### \u25b6 Inspiration \ud83d\udcad\n\n- Forecasting stock price after June 2019\n- Implementing machine learning models.\n- Perform data analysis/data visualization of historical stock prices.\n\n### \u25b6 Log \ud83d\udcf0\n- **11 November 2022**: The datasets version now is ***fully automated update*** using Deepnote. **Read more [here](https://deepnote.com/@mario-caesar/Auto-update-Kaggle-Datasets-using-Deepnote-99b73d05-540b-4d79-a4c2-6b15730a7d8f)**.\n- **13 March 2022**: Adding weekly and monthly dataset.\n- **19 August 2023**: Deepnote schedule run will be ***deprecated after August 2023***; Moving & updating script for update automation via **Kaggle API** using Kaggle schedule run.\n\n---\n\n\ud83d\udcf7 *Image by [Babak](https://unsplash.com/@babak20).*",
+  "datasetId": 1904807,
+  "datasetSlug": "samsung-electronics-stock-historical-price",
+  "hasDatasetSlug": true,
+  "ownerUser": "caesarmario",
+  "hasOwnerUser": true,
+  "usabilityRating": 1.0,
+  "hasUsabilityRating": true,
+  "totalViews": 12535,
+  "totalVotes": 85,
+  "totalDownloads": 2010,
+  "title": "Samsung Electronics Stock Historical Price ",
+  "hasTitle": true,
+  "subtitle": "005930.KS Stock Price from June 2019 - Present",
+  "hasSubtitle": true,
+  "description": "# Samsung Electronics Stock Historical Price (005930.KS)\n\n#### from June 2019 until present\n\n---\n\n### \u25b6 Context \ud83d\udcdd\nThe dataset is taken from [Yahoo Finance website](https://finance.yahoo.com/quote/005930.KS/history?p=005930.KS). It is about the historical stock price of Samsung Electronics Co., Ltd.\n\n### \u25b6 Acknowledgements \ud83d\ude4f\n\nI'd like to clarify that I'm only making data about the historical stock price of Samsung Electronics Co., Ltd. available to **Kaggle community**. \n\n### \u25b6 Inspiration \ud83d\udcad\n\n- Forecasting stock price after June 2019\n- Implementing machine learning models.\n- Perform data analysis/data visualization of historical stock prices.\n\n### \u25b6 Log \ud83d\udcf0\n- **11 November 2022**: The datasets version now is ***fully automated update*** using Deepnote. **Read more [here](https://deepnote.com/@mario-caesar/Auto-update-Kaggle-Datasets-using-Deepnote-99b73d05-540b-4d79-a4c2-6b15730a7d8f)**.\n- **13 March 2022**: Adding weekly and monthly dataset.\n- **19 August 2023**: Deepnote schedule run will be ***deprecated after August 2023***; Moving & updating script for update automation via **Kaggle API** using Kaggle schedule run.\n\n---\n\n\ud83d\udcf7 *Image by [Babak](https://unsplash.com/@babak20).*",
+  "hasDescription": true,
+  "isPrivate": false,
+  "keywords": [
+    "business",
+    "finance",
+    "banking",
+    "economics",
+    "investing",
+    "news"
+  ],
+  "licenses": [
+    {
+      "nameNullable": "world-bank",
+      "name": "world-bank",
+      "hasName": true
+    }
+  ],
+  "collaborators": [],
+  "data": []
+}

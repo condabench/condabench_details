@@ -1,0 +1,16 @@
+0,1,2,3,4
+OTE,OTE,OTE,OTE,OTE
+Ownership Structure,Mean OTE (From Meta Frontier),Mean OTE (From Group Frontier),TCR,Rank
+Public Banks,0.6377,0.9381,0.6798,3
+Private Banks,0.6890,0.8680,0.7934,2
+Foreign Banks,0.8544,0.8544,1,1
+PTE,PTE,PTE,PTE,PTE
+Ownership Structure,Mean PTE (From Meta Frontier),Mean PTE (From Group Frontier),TCR,Rank
+Public Banks,0.7765,0.9724,0.7986,3
+Private Banks,0.8286,0.9129,0.9076,2
+Foreign Banks,0.9063,0.9067,0.9996,1
+SE,SE,SE,SE,SE
+Ownership Structure,Mean SE (From Meta Frontier),Mean SE (From Group Frontier),TCR,Rank
+Public Banks,0.8212,0.9648,0.8512,3
+Private Banks,0.8316,0.9507,0.8747,2
+Foreign Banks,0.9427,0.9427,1,1

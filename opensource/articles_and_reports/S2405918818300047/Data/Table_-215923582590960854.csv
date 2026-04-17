@@ -1,0 +1,33 @@
+Variables,"Tunisia: ARDL (4, 4, 4, 4, 4,4)","Tunisia: ARDL (4, 4, 4, 4, 4,4)","Tunisia: ARDL (4, 4, 4, 4, 4,4)","Tunisia: ARDL (4, 4, 4, 4, 4,4)","Morocco: ARDL (2, 2, 3, 3, 3,4)","Morocco: ARDL (2, 2, 3, 3, 3,4)","Morocco: ARDL (2, 2, 3, 3, 3,4)","Morocco: ARDL (2, 2, 3, 3, 3,4)"
+Variables,Coef.,Std. error,t-Stat.,Prob,Coef.,Std. error,t-Stat.,Prob.
+D (LnGDP per capita (−1)),3174,0161,19663,0032,"−0,388",0333,−1165,0278
+D (LnGDP per capita (−2)),0655,0053,12378,0051,"−0,930",0305,−3047,0016
+D (LnGDP per capita (−3)),1055,0080,13153,0048,–,–,–,–
+D (LnGDP per capita (−4)),3312,0178,18619,0034,–,–,–,–
+D (LnPublic Education Expenditure),"−0,482",0030,"−15,954",0040,0553,0221,2503,0037
+D (LnPublic Education Expenditure (−1)),"−0,350",0037,−9348,0068,0812,0281,2884,0020
+D (LnPublic Education Expenditure (−2)),−1119,0054,"−20,815",0031,0282,0217,1303,0229
+D (LnPublic Education Expenditure (−3)),0262,0019,13969,0046,–,–,–,–
+D (LnPublic Education Expenditure (−4)),"−0,991",0055,"−17,966",0035,–,–,–,–
+D (GERFPE),−2836,0129,"−21,961",0029,0886,1282,0691,0509
+D (GERFPE (−1)),8889,0404,21979,0029,−2330,3288,"−0,709",0499
+D (GERFPE (−2)),1300,0113,11477,0055,6203,4273,1452,0185
+D (GERFPE (−3)),0001,0082,0007,0996,−6707,2679,−2504,0037
+D (GERFPE (−4)),"−0,190",0066,−2875,0213,–,–,–,–
+D (GERMPE),0459,0071,6496,0097,0031,0086,0358,0730
+D (GERMPE (−1)),−7448,0337,"−22,080",0029,0017,0161,0105,0919
+D (GERMPE (−2)),0517,0041,12771,0050,"−0,268",0247,−1084,0310
+D (GERMPE (−3)),"−0,109",0089,−1216,0438,0307,0158,1936,0089
+D (GERMPE (−4)),0620,0101,6151,0103,–,–,–,–
+D (SLE),"−17,122",1013,"−16,899",0038,"−15,280",8844,−1728,0122
+D (SLE (−1)),11281,0957,11782,0054,16446,16146,1019,0338
+D (SLE (−2)),−8668,0997,−8694,0073,"−28,416",18903,−1503,0171
+D (SLE (−3)),"−20,336",0811,"−25,082",0025,48967,15410,3178,0013
+D (SLE (−4)),32374,1406,23018,0028,–,–,–,–
+D (INFLATION),"−0,002",0016,"−0,142",0910,0058,0032,1811,0108
+D (INFLATION (−1)),0352,0023,15629,0041,0039,0024,1613,0145
+D (INFLATION (−2)),1251,0050,24795,0026,0055,0027,2022,0078
+D (INFLATION (−3)),0352,0019,18804,0034,0072,0024,3055,0016
+D (INFLATION (−4)),1630,0072,22519,0028,0060,0022,2698,0027
+C,−2269,0309,−7337,0086,−9187,3970,−2314,0049
+Criteria of model: R-Squared: 1.0000 Adjusted R-Squared: 0.9999 F-statistic: 74930.30 Prob (F –statistic): 0.0028,Criteria of model: R-Squared: 1.0000 Adjusted R-Squared: 0.9999 F-statistic: 74930.30 Prob (F –statistic): 0.0028,Criteria of model: R-Squared: 1.0000 Adjusted R-Squared: 0.9999 F-statistic: 74930.30 Prob (F –statistic): 0.0028,Criteria of model: R-Squared: 1.0000 Adjusted R-Squared: 0.9999 F-statistic: 74930.30 Prob (F –statistic): 0.0028,Criteria of model: R-Squared: 1.0000 Adjusted R-Squared: 0.9999 F-statistic: 74930.30 Prob (F –statistic): 0.0028,Criteria of model: R-Squared: 0.9970 Adjusted R-Squared: 0.9891 F-statistic: 125.4082 Prob (F-statistic): 0.0000,Criteria of model: R-Squared: 0.9970 Adjusted R-Squared: 0.9891 F-statistic: 125.4082 Prob (F-statistic): 0.0000,Criteria of model: R-Squared: 0.9970 Adjusted R-Squared: 0.9891 F-statistic: 125.4082 Prob (F-statistic): 0.0000,Criteria of model: R-Squared: 0.9970 Adjusted R-Squared: 0.9891 F-statistic: 125.4082 Prob (F-statistic): 0.0000

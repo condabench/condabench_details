@@ -1,0 +1,29 @@
+Variables,Illegal Dummy,Illegal Dummy
+Variables,(1),(2)
+High Pledge,0.141∗∗∗,0.134∗∗∗
+High Pledge,(3.32),(3.42)
+Dum2018,0.010,0.008
+Dum2018,(1.04),(0.92)
+High Pledge × Dum2018,0.066∗∗∗,0.062∗∗∗
+High Pledge × Dum2018,(4.76),(4.36)
+SOE,,−0.027
+SOE,,(−0.66)
+Size,,−0.003
+Size,,(−0.15)
+B/M,,−0.033
+B/M,,(−0.56)
+LEV,,0.149∗∗
+LEV,,(2.08)
+Cash,,0.001
+Cash,,(0.01)
+ROA,,−0.120
+ROA,,(−0.64)
+Indep,,−0.157
+Indep,,(−0.73)
+Inst,,0.058
+Inst,,(0.91)
+Top1,,0.025
+Top1,,(0.23)
+Industry FE,Yes,Yes
+Observations,672,672
+Pseudo R2,0.21,0.22

@@ -1,0 +1,16 @@
+Panel A. Sample of 2018,Panel A. Sample of 2018,Panel A. Sample of 2018,Panel A. Sample of 2018,Panel A. Sample of 2018,Panel A. Sample of 2018,Panel A. Sample of 2018,Panel A. Sample of 2018,Panel A. Sample of 2018,Panel A. Sample of 2018
+Daily Stock Return (DRet),Daily Stock Return (DRet),Daily Stock Return (DRet),Daily Stock Return (DRet),Daily Stock Return (DRet),Daily Stock Return (DRet),Daily Stock Return (DRet),Daily Stock Return (DRet),Daily Stock Return (DRet),Daily Stock Return (DRet)
+Variables,Sample of Positive and Negative Mom,Sample of Positive and Negative Mom,Sample of Positive and Negative Mom,Sample of Positive Mom,Sample of Positive Mom,Sample of Positive Mom,Sample of Negative Mom,Sample of Negative Mom,Sample of Negative Mom
+Variables,(1),(2),(3),(4),(5),(6),(7),(8),(9)
+Mom,1.727∗∗∗,1.456∗∗∗,1.437∗∗∗,−0.304,−0.444,−0.427,3.163∗∗∗,2.577∗∗∗,2.452∗∗∗
+Mom,(6.65),(5.49),(5.43),(−1.05),(−1.41),(−1.36),(7.24),(5.89),(5.62)
+High Pledge,,−0.043∗∗∗,−0.031∗∗∗,,−0.029,−0.025,,0.059∗∗,0.071∗∗∗
+High Pledge,,(−5.25),(−3.79),,(−1.27),(−1.11),,(2.47),(2.90)
+Mom∗High Pledge,,2.353∗∗∗,2.341∗∗∗,,1.212,1.138,,4.571∗∗∗,4.405∗∗∗
+Mom∗High Pledge,,(6.56),(6.53),,(1.63),(1.54),,(6.20),(6.01)
+MktMom,35.979∗∗∗,35.983∗∗∗,35.983∗∗∗,32.115∗∗∗,32.114∗∗∗,32.124∗∗∗,38.424∗∗∗,38.427∗∗∗,38.425∗∗∗
+MktMom,(86.85),(86.88),(86.87),(69.65),(69.65),(69.56),(80.46),(80.44),(80.45)
+Firm Characteristics Controlled?,No,No,Yes,No,No,Yes,No,No,Yes
+Month and Industry FEs,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Observations,617415,617415,617415,285417,285417,285417,331998,331998,331998
+Adj. R2,0.28,0.28,0.28,0.21,0.21,0.21,0.34,0.34,0.34

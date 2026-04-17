@@ -1,0 +1,32 @@
+Classification name,N,MEAN,STD,SKEW,KURT,MIN,P10,Q1,MEDI,Q3,P90,MAX
+Management Industry Classification,Management Industry Classification,Management Industry Classification,Management Industry Classification,Management Industry Classification,Management Industry Classification,Management Industry Classification,Management Industry Classification,Management Industry Classification,Management Industry Classification,Management Industry Classification,Management Industry Classification,Management Industry Classification
+Agriculture,76,0.9203,3.20,4.16,17.31,−0.30,−0.06,−0.02,0.0107,0.13,1.02,17.96
+Mining,43,2.5859,15.74,6.53,42.77,−0.34,−0.11,−0.03,0.0066,0.20,0.41,103.25
+Manufacturing,208,5.4282,49.49,12.58,168.46,−0.93,−0.12,0.00,0.0762,0.31,1.28,679.00
+Electricity,57,0.0674,0.20,2.33,6.11,−0.38,−0.02,−0.01,0.0041,0.03,0.25,0.80
+Architecture,98,0.5113,3.59,9.23,87.96,−0.19,−0.05,−0.01,0.0174,0.13,0.40,34.80
+Wholesale and Retail,74,0.1282,0.29,2.97,10.13,−0.15,−0.05,−0.01,0.0234,0.15,0.40,1.52
+Transportation,37,13.8572,63.07,5.09,26.98,−0.67,−0.07,0.00,0.0333,0.22,1.40,359.58
+Lodging and Restaurant,22,0.0137,0.20,2.83,12.22,−0.34,−0.10,−0.05,−0.0055,0.04,0.09,0.78
+Information Transmission,189,1.3944,11.01,11.81,147.83,−0.88,−0.20,−0.03,0.0562,0.25,1.01,142.64
+Finance,73,0.6353,3.21,6.58,45.72,−0.57,−0.04,0.00,0.0267,0.12,0.42,24.50
+Real Estate,27,0.1271,0.43,3.58,12.39,−0.08,−0.03,−0.01,0.0031,0.03,0.13,1.86
+Rent and Business,89,0.7023,2.66,4.55,21.83,−0.95,−0.12,0.00,0.0355,0.17,0.62,16.77
+Scientific Research,101,0.3711,1.27,4.68,25.52,−0.91,−0.13,−0.03,0.0510,0.31,0.76,8.80
+"Water, Environment",63,1.1499,8.40,7.92,62.85,−0.47,−0.04,0.00,0.0241,0.12,0.24,66.76
+Education,61,0.0196,0.08,5.44,36.71,−0.13,−0.01,0.00,0.0040,0.02,0.04,0.57
+Health and Social Work,25,0.1125,0.53,2.39,7.07,−0.65,−0.26,−0.02,0.0029,0.03,0.71,2.00
+"Culture, Sports",69,1.4723,8.37,6.75,47.72,−0.57,−0.10,−0.01,0.0143,0.07,0.69,63.65
+Investment Industry Classification,Investment Industry Classification,Investment Industry Classification,Investment Industry Classification,Investment Industry Classification,Investment Industry Classification,Investment Industry Classification,Investment Industry Classification,Investment Industry Classification,Investment Industry Classification,Investment Industry Classification,Investment Industry Classification,Investment Industry Classification
+Energy,113,4.0805,25.03,6.64,45.50,−0.46,−0.10,−0.01,0.0280,0.11,0.29,203.00
+Raw Materials,153,0.9313,8.37,12.13,148.86,−0.89,−0.11,−0.02,0.0500,0.19,0.65,103.05
+Industry,169,6.1619,54.43,11.59,141.62,−0.95,−0.13,0.00,0.0793,0.29,1.83,679.00
+Non-daily Consumptions,96,0.7488,3.53,7.69,65.79,−0.55,−0.08,0.00,0.0391,0.16,0.66,31.91
+Daily Consumptions,101,0.5142,1.68,4.55,22.48,−0.32,−0.07,−0.02,0.0375,0.19,0.85,11.00
+Health and Medicals,116,0.4461,1.70,5.09,29.32,−0.98,−0.16,−0.02,0.0352,0.22,0.87,12.67
+Finance,75,0.5588,3.02,7.24,55.56,−0.57,−0.04,0.00,0.0262,0.12,0.30,24.50
+Information Technology,205,2.3617,16.16,10.07,113.21,−0.91,−0.24,−0.02,0.0720,0.24,1.24,199.00
+Telecommunication,78,0.3107,1.71,8.17,69.46,−0.29,−0.14,−0.02,0.0169,0.15,0.45,14.78
+Public Service,57,3.5544,26.47,7.55,57.00,−0.05,−0.03,−0.01,0.0035,0.03,0.16,199.87
+Real Estate,23,0.0730,0.27,4.52,21.08,−0.05,−0.02,−0.01,0.0004,0.03,0.10,1.29
+Total,231,3.1544,18.39,9.28,100.39,−0.93,−0.13,0.02,0.1224,0.50,2.05,226.25

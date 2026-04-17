@@ -1,0 +1,10 @@
+Panel A. Carhart Alpha Difference in Means Cluster-optimized vs Markowitz Portfolios,Panel A. Carhart Alpha Difference in Means Cluster-optimized vs Markowitz Portfolios,Panel A. Carhart Alpha Difference in Means Cluster-optimized vs Markowitz Portfolios,Panel A. Carhart Alpha Difference in Means Cluster-optimized vs Markowitz Portfolios
+Empty Cell,12-Month Look-back,60-Month Look-back,120-Month Look-back
+Cluster-optimized vs Markowitz,0.17∗∗,0.22∗∗,0.04∗∗
+T-Stat,(6.82),(15.30),(3.19)
+Difference in StdDev,(-0.41),(-0.06),(-0.12)
+Panel B. Carhart Alpha Difference in Means Cluster-optimized vs 25-Size BM Portfolios,Panel B. Carhart Alpha Difference in Means Cluster-optimized vs 25-Size BM Portfolios,Panel B. Carhart Alpha Difference in Means Cluster-optimized vs 25-Size BM Portfolios,Panel B. Carhart Alpha Difference in Means Cluster-optimized vs 25-Size BM Portfolios
+,12-Month Look-back,60-Month Look-back,120-Month Look-back
+Cluster-optimized vs 25 Size BM,0.15∗∗,0.18∗∗,0.10∗∗
+T-Stat,(13.60),(15.40),(7.96)
+Difference in StdDev,(-0.11),(-0.07),(-0.14)

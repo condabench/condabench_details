@@ -1,0 +1,7 @@
+Address type (#),Precision,Recall,F1 score
+Miners (820),0.92,0.97,0.94
+Mining Pools (18),1.0,1.0,1.0
+Exchangers (338),0.92,0.87,0.89
+Mixing Services (161),1.0,0.97,0.98
+Gambling (166),0.99,0.95,0.97
+Other Services (259),0.97,0.91,0.94

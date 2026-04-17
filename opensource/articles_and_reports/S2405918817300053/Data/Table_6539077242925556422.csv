@@ -1,0 +1,32 @@
+Classification name,Close-to-close volatility,Close-to-close volatility,Close-to-close volatility,Close-to-close volatility,Close-to-close volatility,Parkinson volatility,Parkinson volatility,Parkinson volatility,Parkinson volatility,Parkinson volatility,High–low–close volatility,High–low–close volatility,High–low–close volatility,High–low–close volatility,High–low–close volatility
+Classification name,N,MEAN,MIN,MEDI,MAX,N,MEAN,MIN,MEDI,MAX,N,MEAN,MIN,MEDI,MAX
+Management Industry Classification,Management Industry Classification,Management Industry Classification,Management Industry Classification,Management Industry Classification,Management Industry Classification,Management Industry Classification,Management Industry Classification,Management Industry Classification,Management Industry Classification,Management Industry Classification,Management Industry Classification,Management Industry Classification,Management Industry Classification,Management Industry Classification,Management Industry Classification
+Agriculture,173,0.10,0.01,0.06,0.27,166,0.20,0.01,0.14,0.56,134,0.24,0.01,0.22,0.60
+Mining,41,0.59,0.24,0.61,0.72,22,1.12,0.87,1.13,1.24,16,1.06,0.93,1.05,1.13
+Manufacturing,308,0.14,0.04,0.13,0.28,203,0.27,0.03,0.26,0.85,200,0.32,0.02,0.29,2.16
+Electricity,155,0.06,0.03,0.06,0.08,140,0.08,0.04,0.08,0.09,80,0.06,0.01,0.07,0.08
+Architecture,216,0.08,0.02,0.06,0.22,159,0.16,0.03,0.08,0.5,140,0.15,0.01,0.08,0.46
+Wholesale and Retail,161,0.07,0.02,0.06,0.16,147,0.11,0.03,0.07,0.62,136,0.12,0.01,0.05,1.01
+Transportation,47,0.09,0.04,0.07,0.19,41,0.18,0.05,0.15,0.48,36,0.14,0.02,0.14,0.35
+Information Transmission,251,0.16,0.06,0.12,0.54,184,0.16,0.04,0.17,0.32,181,0.16,0.03,0.17,0.32
+Finance,201,0.34,0.17,0.31,0.64,169,1.88,0.45,1.62,4.38,156,1.77,0.39,1.55,4.99
+Real Estate,18,0.04,0.04,0.04,0.05,22,0.06,0.06,0.06,0.07,18,0.06,0.05,0.06,0.06
+Rent and Business,172,0.11,0.02,0.11,0.47,163,0.27,0.02,0.30,0.69,127,0.34,0.01,0.36,0.61
+ScientifiResearch,134,0.22,0.06,0.18,0.87,117,0.56,0.06,0.52,1.35,114,0.68,0.04,0.55,1.33
+"Water, Environment",158,0.12,0.03,0.05,0.73,133,0.09,0.05,0.06,0.5,107,0.07,0.02,0.05,0.36
+Education,168,0.04,0.02,0.05,0.06,145,0.06,0.03,0.07,0.1,89,0.06,0.01,0.06,0.09
+Health and Social Work,32,0.12,0.03,0.05,0.36,39,0.10,0.04,0.06,0.37,30,0.11,0.03,0.06,0.34
+"Culture, Sports",180,0.07,0.02,0.06,0.2,166,0.07,0.02,0.06,0.22,120,0.06,0.01,0.06,0.20
+Investment Industry Classification,Investment Industry Classification,Investment Industry Classification,Investment Industry Classification,Investment Industry Classification,Investment Industry Classification,Investment Industry Classification,Investment Industry Classification,Investment Industry Classification,Investment Industry Classification,Investment Industry Classification,Investment Industry Classification,Investment Industry Classification,Investment Industry Classification,Investment Industry Classification,Investment Industry Classification
+Energy,231,0.10,0.02,0.07,0.28,159,0.11,0.04,0.07,0.33,142,0.10,0.02,0.05,0.29
+Raw Materials,298,0.14,0.03,0.13,0.28,203,0.73,0.03,0.45,2.99,199,0.82,0.02,0.54,2.79
+Industry,234,0.10,0.03,0.09,0.24,181,0.15,0.02,0.15,0.3,173,0.15,0.01,0.17,0.30
+Non-daily Consumption,188,0.09,0.02,0.08,0.21,178,0.12,0.02,0.10,0.29,169,0.10,0.01,0.08,0.28
+Daily Consumptions,207,0.11,0.01,0.10,0.26,174,0.20,0.02,0.13,0.54,167,0.20,0.01,0.16,0.59
+Health and Medicals,194,0.13,0.03,0.13,0.29,176,0.36,0.04,0.38,0.86,171,0.39,0.03,0.41,0.84
+Finance,207,0.27,0.12,0.27,0.63,182,1.18,0.42,1.16,2.46,169,1.16,0.38,1.08,2.97
+Information Technolology,263,0.15,0.05,0.14,0.36,196,0.18,0.05,0.17,0.34,190,0.19,0.03,0.22,0.35
+Telecommunication,180,0.10,0.03,0.08,0.24,158,0.09,0.04,0.07,0.3,128,0.07,0.01,0.05,0.30
+Public Service,155,0.17,0.03,0.07,0.75,140,0.09,0.04,0.08,0.73,80,0.07,0.01,0.07,0.65
+Real Estate,18,0.04,0.04,0.04,0.05,22,0.06,0.06,0.06,0.07,18,0.06,0.05,0.06,0.06
+Total,308,0.15,0.05,0.14,0.31,203,0.24,0.03,0.24,0.62,200,0.28,0.02,0.28,0.74

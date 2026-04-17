@@ -1,0 +1,18 @@
+Panel A. The interbank market,Panel A. The interbank market,Panel A. The interbank market,Panel A. The interbank market,Panel A. The interbank market,Panel A. The interbank market,Panel A. The interbank market
+Empty Cell,Model 1: FF3,Model 1: FF3.1,Model 2: Bond5,Model 2: Bond5.1,Model 3: Whole8,Model 3: Whole8.1
+,Mean,t-stat,Mean,t-stat,Mean,t-stat
+Size 1,0.1259,2.38,0.0281,1.86,0.0334,1.39
+Size 2,0.1008,2.30,0.0214,1.41,−0.0051,−0.25
+Size 3,0.0537,1.03,−0.0151,−2.51,−0.0049,−0.67
+Maturity 1,0.0812,2.20,0.0733,3.60,0.0492,2.34
+Maturity 2,0.0542,0.81,−0.0659,−3.20,−0.0460,−1.45
+Maturity 3,0.0844,2.28,0.0155,1.48,0.0098,0.55
+Age 1,0.1183,2.08,0.0235,1.04,0.0082,0.59
+Age 2,0.0481,1.30,0.0180,0.89,0.0056,0.19
+Age 3,0.0563,1.00,−0.0285,−1.23,−0.0097,−0.34
+Rating 1,0.0446,0.90,−0.0055,−1.18,−0.0076,−2.20
+Rating 2,0.0976,2.11,−0.0020,−0.34,−0.0080,−0.79
+Amihud 1,0.0478,0.96,0.0080,0.90,0.0195,1.32
+Amihud 2,0.0570,1.19,−0.0181,−1.20,−0.0542,−2.16
+Amihud 3,0.1468,2.63,0.0174,2.06,0.0395,2.40
+Rf,0.0028,1.35,−0.0073,−2.29,−0.0003,−0.20

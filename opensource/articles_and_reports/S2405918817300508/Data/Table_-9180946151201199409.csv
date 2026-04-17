@@ -1,0 +1,13 @@
+Abbreviated name,Full name,Variable description
+Dependent variable,Dependent variable,Dependent variable
+EXTVDIS,Extent voluntary disclosure index,Number of items actually and voluntarily disclosed by a given firm divided by the total number of relevant items that should be disclosed86
+,,
+Independent variables,Independent variables,Independent variables
+LogAsstjt,Firm size,LogAsst is measured as natural logarithm of book value of total assets for the firm j and period t.
+LEVRGjt,Firm leverage,LEVRG is measured as long-term debts divided by capital equity.
+ROAjt,Firm profitability,"ROA refers to return on assets, and is measured as the ratio of net income to total assets for the firm j and period t."
+BOSIZEjt,Board size,BOSIZE is number of board members
+BrdIndpejt,Independent directors,BrdIndpe is the ratio of (non-executive) independent directors to total board size
+DUALTjt,Duality in position,"DUALT is dummy variable; 1 if company's CEO serves as a board chairman, 0 otherwise"
+BLKownjt,Block-holder ownership,BLKown is percent of shares owned by the block-holders–shareholders whose ownership ≥5% of total number of shares issued.
+Big4jt,Auditor type,"Big4 is dummy variable, 1 if the auditor is one of the Big4, 0 otherwise."

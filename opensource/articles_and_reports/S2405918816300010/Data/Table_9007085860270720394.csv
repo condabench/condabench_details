@@ -1,0 +1,14 @@
+Currency pair,Spike at 4 pm,Spike at 4 pm,Subset consistent
+Currency pair,2008/2010-2013,2013–2014,2008/2010-2013
+AUDUSD,✓,✓,×
+USDCHF,✓,×,✓
+USDGBP,✓,✓,✓
+USDJPY,✓,✓,✓
+USDMXN,✓,✓,✓
+USDSGD,✓,✓,✓
+EURCHF,✓,✓,✓
+EURGBP,✓,×,✓
+EURJPY,✓,✓,✓
+EURSEK,×,✓,×
+EURUSD,✓,×,×
+GBPCHF,✓,×,✓

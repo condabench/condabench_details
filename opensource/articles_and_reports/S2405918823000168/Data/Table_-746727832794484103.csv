@@ -1,0 +1,18 @@
+Panel B. The exchange market,Panel B. The exchange market,Panel B. The exchange market,Panel B. The exchange market,Panel B. The exchange market,Panel B. The exchange market,Panel B. The exchange market
+Empty Cell,Model 1: FF3,Model 1: FF3.1,Model 2: Bond5,Model 2: Bond5.1,Model 3: Whole8,Model 3: Whole8.1
+,Mean,t-stat,Mean,t-stat,Mean,t-stat
+Size 1,0.1679,2.17,−0.0003,−0.01,−0.0001,0.00
+Size 2,0.1544,2.07,−0.0277,−0.94,−0.0236,−0.71
+Size 3,0.0319,1.24,0.0147,1.17,0.0143,1.07
+Maturity 1,0.1200,2.17,0.0525,1.58,0.0297,1.24
+Maturity 2,0.0471,1.14,−0.0322,−1.03,−0.0365,−1.65
+Maturity 3,0.1037,1.55,−0.0065,−0.14,0.0200,0.69
+Age 1,0.1044,1.57,−0.0251,−0.95,−0.0438,−1.75
+Age 2,0.1222,1.85,−0.0119,−0.34,0.0133,0.44
+Age 3,0.0576,1.46,0.0069,0.27,0.0089,0.38
+Rating 1,−0.0006,−0.03,−0.0037,−0.39,0.0014,0.17
+Rating 2,0.2192,2.54,0.0004,0.07,0.0040,0.52
+Amihud 1,0.0828,1.36,−0.0247,−1.37,−0.0383,−3.08
+Amihud 2,0.1866,3.02,0.0742,1.91,0.0887,3.15
+Amihud 3,0.0249,0.78,−0.0312,−1.78,−0.0363,−3.22
+Rf,−0.0069,−2.69,−0.0033,−2.05,−0.0027,−1.71

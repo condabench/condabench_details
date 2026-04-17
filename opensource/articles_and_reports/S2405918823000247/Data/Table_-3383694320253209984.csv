@@ -1,0 +1,10 @@
+Family,Model
+Linear,Ordinary Least Square (OLS + H)
+Linear,Ordinary Least Square 3 factors (OLS3+H)
+Linear,Generalised Linear Model with group Lasso (GLM + H)
+Linear,Elastic Net (ENet + H)
+Linear with,Partial Least Square (PLS)
+dimension reduction,Principal Component Regressor (PCR)
+Tree-based,Random Forest (RF)
+Tree-based,Gradient Boosting Regressor Tree (GBRT + H)
+Neural network,Neural Networks (NN1-NN5)

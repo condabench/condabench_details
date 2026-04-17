@@ -1,0 +1,26 @@
+Panel A. Cluster-optimized Portfolio Average Risk Exposure Using the Carhart 4-Factor Model,Panel A. Cluster-optimized Portfolio Average Risk Exposure Using the Carhart 4-Factor Model,Panel A. Cluster-optimized Portfolio Average Risk Exposure Using the Carhart 4-Factor Model,Panel A. Cluster-optimized Portfolio Average Risk Exposure Using the Carhart 4-Factor Model
+Empty Cell,12-Month Look-back,60-Month Look-back,120-Month Look-back
+Alpha,0.14∗∗,0.16∗∗,0.09
+,(2.70),(2.52),(1.73)
+Beta,0.99∗∗,1.00∗∗,0.99∗∗
+,(56.82),(55.11),(44.14)
+SMB,0.25∗∗,0.11∗∗,0.04
+,(8.16),(2.77),(0.99)
+HML,0.07,0.22∗∗,0.29∗∗
+,(1.66),(3.79),(4.71)
+MOM,−0.07∗∗,−0.10∗∗,−0.08∗∗
+,(3.05),(3.76),(2.85)
+Adj. R2 0.95,Adj. R2 0.95,0.94,0.93
+Panel B. Markowitz Portfolio Average Risk Exposure Using the Carhart 4-Factor Model,Panel B. Markowitz Portfolio Average Risk Exposure Using the Carhart 4-Factor Model,Panel B. Markowitz Portfolio Average Risk Exposure Using the Carhart 4-Factor Model,Panel B. Markowitz Portfolio Average Risk Exposure Using the Carhart 4-Factor Model
+,12-Month Look-back,60-Month Look-back,120-Month Look-back
+Alpha,−0.03,0.00,0.02
+,(0.13),(0.01),(0.16)
+Beta,1.05∗∗,0.63∗∗,0.70∗∗
+,(17.93),(10.76),(15.58)
+SMB,0.52∗∗,−0.09,−0.21∗∗
+,(3.62),(1.20),(3.09)
+HML,−0.28∗,−0.15,−0.09
+,(2.41),(1.56),(1.15)
+MOM,0.48∗∗,0.14∗∗,0.14∗∗
+,(6.81),(2.72),(3.39)
+Adj. R2 0.60,Adj. R2 0.60,0.53,0.64

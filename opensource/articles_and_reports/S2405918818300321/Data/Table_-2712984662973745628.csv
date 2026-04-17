@@ -1,0 +1,15 @@
+Range of Efficiency Scores,OTE,OTE,PTE,PTE,SE,SE
+Range of Efficiency Scores,No. of Banks,Percentage,No. of Banks,Percentage,No. of Banks,Percentage
+0.5 ≤ Score < 0.6,7,10.61,1,01.52,0,00.00
+0.6 ≤ Score < 0.7,24,36.36,8,12.12,2,03.03
+0.7 ≤ Score < 0.8,13,19.70,19,28.78,14,21.21
+0.8 ≤ Score < 0.9,14,21.21,20,30.30,21,31.82
+0.9 ≤ Score < 1,4,06.06,9,13.64,25,37.88
+Score = 1,4,06.06,9,13.64,4,06.06
+Total,66,100,66,100,66,100
+Mean,0.7344,0.7344,0.8343,0.8343,0.8798,0.8798
+,Minimum,First Quartile,Median,Third Quartile,Maximum,Standard Deviation
+Descriptive Statistics,Descriptive Statistics,Descriptive Statistics,Descriptive Statistics,Descriptive Statistics,Descriptive Statistics,Descriptive Statistics
+OTE,0.5148,0.6336,0.7101,0.8386,1,0.1281
+PTE,0.5925,0.7548,0.8415,0.9087,1,0.1068
+SE,0.6292,0.8045,0.8709,0.9694,1,0.0941

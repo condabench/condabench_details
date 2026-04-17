@@ -1,0 +1,17 @@
+Empty Cell,Std Dev,Std Error,F-Stat,P-Value,DFreedom,SumSquare,Chi-Square,Yates Correction
+Wide Bay Burnett Region,Wide Bay Burnett Region,Wide Bay Burnett Region,Wide Bay Burnett Region,Wide Bay Burnett Region,Wide Bay Burnett Region,Wide Bay Burnett Region,Wide Bay Burnett Region,Wide Bay Burnett Region
+Control,3.1901,0.5824,,,,,,
+Sample,4.3061,0.7862,,,,,,
+,,,0.1713,0.6805,(1–59),825.3182,∗0.0721,∗0.0563
+Darling Downs Region,Darling Downs Region,Darling Downs Region,Darling Downs Region,Darling Downs Region,Darling Downs Region,Darling Downs Region,Darling Downs Region,Darling Downs Region
+Control,5.0370,1.0074,,,,,,
+Sample,3.9379,0.7876,,,,,,
+,,,1.6297,0.2079,(1–46),955.6737,∗3.1145,∗0.0818
+Noosa and Sunshine Coast Region,Noosa and Sunshine Coast Region,Noosa and Sunshine Coast Region,Noosa and Sunshine Coast Region,Noosa and Sunshine Coast Region,Noosa and Sunshine Coast Region,Noosa and Sunshine Coast Region,Noosa and Sunshine Coast Region,Noosa and Sunshine Coast Region
+Control,2.1302,0.6149,,,,,,
+Sample,3.4491,0.9957,,,,,,
+,,,2.3266,0.1414,(1–23),199.8919,∗1.6444,∗0.0206
+Combined Total,Combined Total,Combined Total,Combined Total,Combined Total,Combined Total,Combined Total,Combined Total,Combined Total
+Control,5.3501,0.6536,,,,,,
+Sample,5.8693,0.7170,,,,,,
+,,,1.3091,0.2546,(1–133),4203.9808,∗1.2764,∗1.2219

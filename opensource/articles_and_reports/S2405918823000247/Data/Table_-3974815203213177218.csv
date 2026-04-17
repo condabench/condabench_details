@@ -1,0 +1,8 @@
+0,1
+Algorithm 1 Bernstein Online Aggregation (BOA),Algorithm 1 Bernstein Online Aggregation (BOA)
+"Require: weights wk,0 > 0 s.t. ∑k=1Kwk,0=1, learning rate η > 0","Require: weights wk,0 > 0 s.t. ∑k=1Kwk,0=1, learning rate η > 0"
+"for each t = 1, …, T do","for each t = 1, …, T do"
+"for each k = 1, …, K do","for each k = 1, …, K do"
+"wk,t=exp(−ηℓk,t(1+ηℓk,t))exp(−ηℓw,t(1+ηℓw,t))wk,t−1","wk,t=exp(−ηℓk,t(1+ηℓk,t))exp(−ηℓw,t(1+ηℓw,t))wk,t−1"
+end for,end for
+end for,end for

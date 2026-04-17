@@ -1,0 +1,18 @@
+Panel. b,|rt|,|rt|,|rt|,rt2,rt2,rt2
+Panel. b,CAC40,FTSE100,S&P500,CAC40,FTSE100,S&P500
+GPH Test,GPH Test,GPH Test,GPH Test,GPH Test,GPH Test,GPH Test
+M = T0.5,0.50,0.45,0.38,0.33,0.36,0.20
+M = T0.6,0.44,0.40,0.26,0.29,0.33,0.16
+M = T0.7,0.39,0.42,0.24,0.28,0.32,0.17
+Lo's RS Test,Lo's RS Test,Lo's RS Test,Lo's RS Test,Lo's RS Test,Lo's RS Test,Lo's RS Test
+,1.70413,1.53375,1.52429,2.35328,2.00091,1.83822
+,{<0.1},{<0.2},{<0.2},{<0.005},{<0.025},{<0.05}
+Panel. c,|rt|,|rt|,|rt|,rt2,rt2,rt2
+Panel. c,EURO,GBP,YEN,EURO,GBP,YEN
+GPH,GPH,GPH,GPH,GPH,GPH,GPH
+m = T0.5,0.34,0.45,0.41,0.28,0.30,0.31
+m = T0.6,0.26,0.37,0.41,0.21,0.33,0.40
+m = T0.7,0.16,0.26,0.32,0.10,0.25,0.29
+Lo's RS Test,Lo's RS Test,Lo's RS Test,Lo's RS Test,Lo's RS Test,Lo's RS Test,Lo's RS Test
+,0.93629,1.67277,1.01412,1.56165,2.94725,2.02818
+,{<0.9},{<0.1},{<0.9},{<0.2},{<0.01},{<0.025}

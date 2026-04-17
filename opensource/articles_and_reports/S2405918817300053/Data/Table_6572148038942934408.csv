@@ -1,0 +1,14 @@
+Classification name,Daily simple returns,Daily simple returns,Daily simple returns,Daily simple returns,Daily simple returns,Daily simple returns,Daily simple returns,Daily simple returns,Daily log-returns,Daily log-returns,Daily log-returns,Daily log-returns,Daily log-returns,Daily log-returns,Daily log-returns
+Classification name,N,MEAN,STD,SKEW,KURT,MIN,MEDI,MAX,MEAN,STD,SKEW,KURT,MIN,MEDI,MAX
+Energy,327,0.2837,2.3,9.86,101.65,−0.52,0.0046,27.11,0.0077,0.17,1.03,14.13,−0.74,0.0031,1.32
+Raw Materials,411,0.2684,1.77,11.66,160.27,−0.74,0.0285,27.88,0.0194,0.23,1.06,16.93,−1.36,0.013,1.74
+Industry,412,0.4944,4.86,18.73,367.96,−0.95,0.0331,96.13,−0.0020,0.35,−3.85,34.0,−3.08,0.0073,1.58
+Non-daily Consumptions,275,0.3688,2.85,10.27,116.7,−0.55,0.0094,37.31,0.0031,0.11,−1.80,15.0,−0.79,0.002,0.47
+Daily Consumptions,322,0.3636,3.05,11.16,129.3,−0.52,0.005,37.96,0.0070,0.11,−0.08,11.67,−0.74,0.0025,0.57
+Health and Medicals,316,0.284,2.47,15.58,260.49,−0.98,0.0123,42.0,−0.0057,0.39,−3.63,45.44,−3.91,0.0016,2.28
+Finance,279,0.4407,3.79,11.07,128.43,−0.98,0.0082,49.05,0.0036,0.42,−0.95,60.89,−4.03,0.0028,3.91
+Information Technology,538,0.5703,7.25,21.45,479.97,−0.88,0.0419,163.73,0.0010,0.31,−1.09,12.39,−2.11,0.0106,1.64
+Telecommunication,276,0.3713,5.04,16.55,274.46,−0.40,0.008,83.65,0.0185,0.16,2.47,21.67,−0.60,0.0044,1.39
+Public Service,216,4.6603,68.04,14.7,215.99,−0.48,0.003,999.99,0.0098,0.38,1.26,77.32,−3.40,0.003,3.79
+Real Estate,92,0.0334,0.28,9.06,85.08,−0.18,0.0028,2.6,0.0170,0.14,7.77,69.27,−0.20,0.0028,1.28
+Total,589,0.4029,3.02,18.96,402.92,−0.89,0.0597,66.69,0.0031,0.26,−2.06,22.65,−2.18,0.0125,1.64

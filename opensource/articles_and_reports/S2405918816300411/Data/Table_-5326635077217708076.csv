@@ -1,0 +1,5 @@
+Country,Model,AICa,ARCH test
+Kenya,"ARMA(0,1)",−5.83,6.06∗∗∗
+Nigeria,"ARMA(1,0)",−5.82,35.21∗∗∗
+South Africa,"ARMA(5,5)",−5.19,29.89∗∗∗
+Tunisia,"ARMA(4,4)",−7.23,5.68∗∗∗

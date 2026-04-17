@@ -1,0 +1,439 @@
+
+
+
+
+
+
+Data Analysis Relating to Star Trek • rtrek
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Toggle navigation
+
+
+
+
+
+[rtrek](index.html)
+0\.5\.1
+
+
+
+* [Home](index.html)
+* [Get Started](articles/rtrek.html)
+* [Articles](#)
+	+ [Star Trek API (STAPI)](articles/stapi.html)
+	+ [Memory Alpha](articles/memory-alpha.html)
+	+ [Memory Beta](articles/memory-beta.html)
+	+ [Star Trek fonts](articles/fonts.html)
+	+ 
+	+ Examples
+	+ [Novels: word count](articles/ex-word-count.html)
+	+ [Episodes: spoken lines](articles/ex-episode-analysis.html)
+* [Reference](reference/index.html)
+* [Changelog](news/index.html)
+
+
+* [Stellar Cartography](articles/sc.html)
+* 
+
+
+
+
+
+
+
+
+
+
+
+rtrek
+=====
+
+
+
+The `rtrek` package provides datasets related to the Star Trek fictional universe and functions for working with those datasets. It interfaces with the [Star Trek API](http://stapi.co/) (STAPI), [Memory Alpha](https://memory-alpha.fandom.com/wiki/Portal:Main) and [Memory Beta](https://memory-beta.fandom.com/wiki/Main_Page) to retrieve data, metadata and other information relating to Star Trek.
+
+
+The package also contains several local datasets covering a variety of topics such as Star Trek timeline data, universe species data and geopolitical data. Some of these are more information rich, while others are toy examples useful for simple demonstrations. The bulk of Star Trek data is accessed from external sources by API. A future version of `rtrek` will also include summary datasets resulting from text mining analyses of Star Trek novels.
+
+
+
+
+
+
+*Image: Example [Leaflet map](https://leonawicz.github.io/rtrek/articles/sc.html) using non\-geographic Star Trek map tiles.*
+
+
+  
+
+
+
+
+Installation
+------------
+
+
+Install the CRAN release of `rtrek` with
+
+
+
+```
+
+[install.packages](https://rdrr.io/r/utils/install.packages.html)("rtrek")
+```
+
+Install the development version from GitHub with
+
+
+
+```
+
+# install.packages("remotes")
+remotes::[install_github](https://remotes.r-lib.org/reference/install_github.html)("leonawicz/rtrek")
+```
+
+Examples
+--------
+
+
+
+#### Time to be good detectives. Good thing Data has R installed.
+
+
+These are just a few examples to help you jump right in. See the package articles for more.
+
+
+
+### STAPI
+
+
+Use the Star Trek API (STAPI) to obtain information on the infamous character, Q. Specifically, retrieve data on his appearances and the stardates when he shows up.
+
+
+The first API call does a lightweight, unobtrusive check to see how many pages of potential search results exist for characters in the database. There are a lot of characters.
+
+
+The second call grabs only page two results. The third call uses the universal/unique ID `uid` to retrieve data on Q. Think of these three successive uses of `[stapi()](reference/stapi.html)` as safe mode, search mode and extraction mode.
+
+
+
+```
+
+[library](https://rdrr.io/r/base/library.html)([rtrek](https://github.com/leonawicz/rtrek))
+[library](https://rdrr.io/r/base/library.html)([dplyr](https://dplyr.tidyverse.org))
+[stapi](reference/stapi.html)("character", page_count = TRUE)
+#> Total pages to retrieve all results: 76
+
+[stapi](reference/stapi.html)("character", page = 1) |> [select](https://dplyr.tidyverse.org/reference/select.html)(uid, name)
+#> # A tibble: 100 × 2
+#>    uid            name         
+#>    <chr>          <chr>        
+#>  1 CHMA0000215045 0413 Theta   
+#>  2 CHMA0000174718 0718         
+#>  3 CHMA0000283851 10111        
+#>  4 CHMA0000278055 335          
+#>  5 CHMA0000282741 355          
+#>  6 CHMA0000026532 A'trom       
+#>  7 CHMA0000280385 A. Armaganian
+#>  8 CHMA0000226457 A. Baiers    
+#>  9 CHMA0000232390 A. Baiers    
+#> 10 CHMA0000068580 A. Banda     
+#> # ℹ 90 more rows
+
+Q <- "CHMA0000025118" #unique ID
+Q <- [stapi](reference/stapi.html)("character", uid = Q)
+Q$episodes |> [select](https://dplyr.tidyverse.org/reference/select.html)(uid, title, stardateFrom, stardateTo)
+#>               uid                 title stardateFrom stardateTo
+#> 1  EPMA0000259941               Veritas           NA         NA
+#> 2  EPMA0000000651              Tapestry           NA         NA
+#> 3  EPMA0000000500            Hide And Q      41590.5    41590.5
+#> 4  EPMA0000277408        The Star Gazer           NA         NA
+#> 5  EPMA0000280052              Farewell           NA         NA
+#> 6  EPMA0000279099            Two of One           NA         NA
+#> 7  EPMA0000278606               Watcher           NA         NA
+#> 8  EPMA0000001510    The Q and the Grey      50384.2    50392.7
+#> 9  EPMA0000001413                True Q      46192.3    46192.3
+#> 10 EPMA0000000845                Q-Less      46531.2    46531.2
+#> 11 EPMA0000001329                 Q Who      42761.3    42761.3
+#> 12 EPMA0000278900    Fly Me to the Moon           NA         NA
+#> 13 EPMA0000000483 Encounter at Farpoint      41153.7    41153.7
+#> 14 EPMA0000001458    All Good Things...      47988.0    47988.0
+#> 15 EPMA0000162588            Death Wish      49301.2    49301.2
+#> 16 EPMA0000289337   The Last Generation           NA         NA
+#> 17 EPMA0000001347                Deja Q      43539.1    43539.1
+#> 18 EPMA0000277535               Penance           NA         NA
+#> 19 EPMA0000278226          Assimilation           NA         NA
+#> 20 EPMA0000279450                 Mercy           NA         NA
+#> 21 EPMA0000001619                    Q2      54704.5    54704.5
+#> 22 EPMA0000001377                  Qpid      44741.9    44741.9
+```
+
+
+
+### Memory Alpha
+
+
+Obtain content and metadata from the article about Spock on Memory Alpha:
+
+
+
+```
+
+x <- [ma_article](reference/ma_article.html)("Spock")
+x
+#> # A tibble: 1 × 4
+#>   title content    metadata          categories       
+#>   <chr> <list>     <list>            <list>           
+#> 1 Spock <xml_ndst> <tibble [1 × 18]> <tibble [15 × 2]>
+x$metadata[[1]]$Born
+#> [1] "January 6, 2230 (stardate 2230.06)|ShiKahr, Vulcan"
+```
+
+
+
+### Memory Beta
+
+
+Spock was born in 2230\. Obtain a subset of the Star Trek universe historical timeline for that year:
+
+
+
+```
+
+[mb_timeline](reference/mb_timeline.html)(2230)
+#> 2230
+#> $events
+#> # A tibble: 8 × 2
+#>   period details                                                      
+#>   <chr>  <chr>                                                        
+#> 1 2230   Events                                                       
+#> 2 2230   Argelius II  and Betelgeuse become members of the Federation.
+#> 3 2230   Births and Deaths                                            
+#> 4 2230   Spock is born deep within a cave in Vulcan's Forge on Vulcan.
+#> 5 2230   T'Pring is born on Vulcan.                                   
+#> 6 2230   George Samuel Kirk, Jr. is born.                             
+#> 7 2230   David Rabin is born.                                         
+#> 8 2230   Roy John Moss is born.                                       
+#> 
+#> $stories
+#> # A tibble: 5 × 11
+#>   title   title_url colleciton collection_url section context series date  media
+#>   <chr>   <chr>     <chr>      <chr>          <chr>   <chr>   <chr>  <chr> <chr>
+#> 1 Burnin… Burning_… <NA>       <NA>           Chapte… <NA>    The O… 2230  novel
+#> 2 Star T… Star_Tre… <NA>       <NA>           Chapte… <NA>    The O… 2230  movi…
+#> 3 IDW St… IDW_Star… Star Trek… Star_Trek_(ID… 2230 f… <NA>    The O… 2230  comic
+#> 4 Star T… Star_Tre… <NA>       <NA>           Chapte… <NA>    The O… 2230  movi…
+#> 5 Sarek   Sarek_(n… <NA>       <NA>           Chapte… <NA>    The O… 12 N… novel
+#> # ℹ 2 more variables: notes <chr>, image_url <chr>
+```
+
+Live long and prosper.
+
+
+
+
+
+Packages in the trekverse
+-------------------------
+
+
+
+
+
+
+
+#### [rtrek](https://github.com/leonawicz/rtrek): The core Star Trek package
+
+
+Datasets related to Star Trek, API wrappers to external data sources, and more.
+
+
+
+
+  
+
+
+
+
+
+
+
+
+#### [lcars](https://github.com/leonawicz/lcars): LCARS aesthetic for Shiny
+
+
+Create Shiny apps based on the Library Computer Access/Retrieval System (LCARS).
+
+
+
+
+  
+
+
+
+
+
+
+
+
+#### [trekcolors](https://github.com/leonawicz/trekcolors): A color palette package
+
+
+Predefined and customizable Star Trek themed color palettes and related functions.
+
+
+
+
+  
+
+
+
+
+
+
+
+
+#### [trekfont](https://github.com/leonawicz/trekfont): A fonts package
+
+
+True (Trek) type fonts to style your Star Trek themed graphics text.
+
+
+
+
+  
+
+
+
+
+
+Citation
+--------
+
+
+Matthew Leonawicz (2024\). rtrek: Data analysis relating to Star Trek. R package version 0\.5\.1\. [https://CRAN.R\-project.org/package\=rtrek](https://CRAN.R-project.org/package=rtrek)
+
+
+
+
+Contribute
+----------
+
+
+Contributions are welcome. Contribute through GitHub via pull request. Please create an issue first if it is regarding any substantive feature add or change.
+
+
+
+
+---
+
+
+Please note that the `rtrek` project is released with a [Contributor Code of Conduct](https://github.com/leonawicz/rtrek/blob/master/CODE_OF_CONDUCT.md). By contributing to this project, you agree to abide by its terms.
+
+
+
+
+
+
+
+Links
+-----
+
+
+* [View on CRAN](https://cloud.r-project.org/package=rtrek)
+* [Browse source code](https://github.com/leonawicz/rtrek/)
+* [Report a bug](https://github.com/leonawicz/rtrek/issues)
+
+
+
+
+License
+-------
+
+
+* [Full license](LICENSE.html)
+* [MIT](https://opensource.org/licenses/mit-license.php) \+ file [LICENSE](LICENSE-text.html)
+
+
+
+
+Community
+---------
+
+
+* [Code of conduct](CODE_OF_CONDUCT.html)
+
+
+
+
+Citation
+--------
+
+
+* [Citing rtrek](authors.html#citation)
+
+
+
+
+Developers
+----------
+
+
+* [Matthew Leonawicz](https://github.com/leonawicz)   
+ Author, maintainer
+
+
+
+
+Dev status
+----------
+
+
+* 
+* 
+* 
+* 
+* 
+* 
+
+
+
+
+
+
+
+Developed by [Matthew Leonawicz](https://github.com/leonawicz).
+
+
+
+
+
+Site built with [pkgdown](https://pkgdown.r-lib.org/) 2\.1\.0\.
+
+
+
+
+
+
+

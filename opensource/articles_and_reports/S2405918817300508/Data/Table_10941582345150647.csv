@@ -1,0 +1,16 @@
+Symbol,Explanatory variable,Coef.,Std. err.,t-Value,Sig.,VIF
+_cons,,+0.1918042,0.0588738,3.26,0.001***,
+LnTA,Firm size,+0.0090331,0.0032314,2.80,0.006***,1.48
+ROA,Firm profitability,+0.0785549,0.031045,2.53,0.012**,1.1
+LEVRG,Firm leverage,+0.0006088,0.0002957,2.06,0.041**,1.03
+BOSIZE,Board size,−0.0031343,0.0021296,−1.47,0.143,1.98
+BrdIndpe,Independent directors,+0.0845805,0.0298959,2.83,0.005***,2.06
+DUALT,Duality in position,−0.0105976,0.0094393,−1.12,0.263,1.31
+BLKown,Block–holder ownership,−0.0662796,0.0171227,−3.87,0.000***,1.12
+BIG4,Auditor type,+0.0240883,0.0090667,2.66,0.009***,1.05
+,,,,,,
+Model summary,Model summary,Model summary,Model summary,Model summary,Model summary,Model summary
+R-squared,0.3377,,,,,
+Adj R-squared,0.3052,,,,,
+F-value,10.390,,,,,
+Sig.,0.000,,,,,

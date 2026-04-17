@@ -1,0 +1,11 @@
+Panel B: Average CDS spreads from 2007 to 2008,Panel B: Average CDS spreads from 2007 to 2008,Panel B: Average CDS spreads from 2007 to 2008,Panel B: Average CDS spreads from 2007 to 2008,Panel B: Average CDS spreads from 2007 to 2008,Panel B: Average CDS spreads from 2007 to 2008,Panel B: Average CDS spreads from 2007 to 2008,Panel B: Average CDS spreads from 2007 to 2008,Panel B: Average CDS spreads from 2007 to 2008,Panel B: Average CDS spreads from 2007 to 2008
+Empty Cell,1-year CDS,1-year CDS,1-year CDS,5-year CDS,5-year CDS,5-year CDS,10-year CDS,10-year CDS,10-year CDS
+Empty Cell,2008,2007,2008–2007,2008,2007,2008–2007,2008,2007,2008–2007
+Treated,256.58***,14.01***,242.57***,274.25***,48.70***,225.55***,254.96***,75.12***,179.84***
+Treated,(94.44),(3.26),(91.83),(79.12),(9.84),(71.06),(67.50),(14.70),(56.23)
+Control,75.36***,14.11***,61.26***,133.64***,43.44***,90.21***,141.97***,64.39***,77.58***
+Control,(19.01),(4.80),(14.40),(23.95),(11.69),(13.82),(23.04),(14.26),(11.83)
+Diff,181.21**,−0.10,181.31**,140.61*,5.26,135.35*,112.99,10.74,102.25*
+Diff,(90.52),(3.80),(88.49),(78.74),(12.60),(69.82),(69.05),(17.14),(56.35)
+ATT,,,168.76*,,,128.94**,,,101.52**
+ATT,,,(94.07),,,(63.81),,,(47.40)

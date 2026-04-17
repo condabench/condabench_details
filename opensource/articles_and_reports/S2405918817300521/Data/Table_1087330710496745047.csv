@@ -1,0 +1,10 @@
+Empty Cell,Panel A: p-Values of the Linearity Test for Various Values of d,Panel A: p-Values of the Linearity Test for Various Values of d,Panel A: p-Values of the Linearity Test for Various Values of d,Panel A: p-Values of the Linearity Test for Various Values of d,Panel A: p-Values of the Linearity Test for Various Values of d,Panel A: p-Values of the Linearity Test for Various Values of d,Panel A: p-Values of the Linearity Test for Various Values of d
+Empty Cell,Empty Cell,d,1,2,3,4,Empty Cell.1
+Turkey,,,0.986,0.958,0.637,0.988,
+FTSE,,,0.153,0.013,0.016,0.285,
+MSCI,,,0.092,0.028,0.116,0.139,
+,Panel B: p-Values of the Linearity Tests,Panel B: p-Values of the Linearity Tests,Panel B: p-Values of the Linearity Tests,Panel B: p-Values of the Linearity Tests,Panel B: p-Values of the Linearity Tests,Panel B: p-Values of the Linearity Tests,Panel B: p-Values of the Linearity Tests
+,p,d,"H0,1","H0,2","H0,3","H1,2",Model
+Turkey,4,3,0.574,0.646,0.366,0.716,AR
+FTSE,4,2,0.026,0.294,0.052,0.045,LSTAR
+MSCI,3,2,0.003,0.338,0.574,0.009,LSTAR

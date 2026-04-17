@@ -1,0 +1,22 @@
+Panel C2. Contagion (Cross-momentum) Effects (2017),Panel C2. Contagion (Cross-momentum) Effects (2017),Panel C2. Contagion (Cross-momentum) Effects (2017),Panel C2. Contagion (Cross-momentum) Effects (2017),Panel C2. Contagion (Cross-momentum) Effects (2017),Panel C2. Contagion (Cross-momentum) Effects (2017),Panel C2. Contagion (Cross-momentum) Effects (2017),Panel C2. Contagion (Cross-momentum) Effects (2017),Panel C2. Contagion (Cross-momentum) Effects (2017),Panel C2. Contagion (Cross-momentum) Effects (2017),Panel C2. Contagion (Cross-momentum) Effects (2017),Panel C2. Contagion (Cross-momentum) Effects (2017),Panel C2. Contagion (Cross-momentum) Effects (2017)
+Daily Stock Return (DRet),Daily Stock Return (DRet),Daily Stock Return (DRet),Daily Stock Return (DRet),Daily Stock Return (DRet),Daily Stock Return (DRet),Daily Stock Return (DRet),Daily Stock Return (DRet),Daily Stock Return (DRet),Daily Stock Return (DRet),Daily Stock Return (DRet),Daily Stock Return (DRet),Daily Stock Return (DRet)
+Variables,Sample of Positive and Negative CrMom,Sample of Positive and Negative CrMom,Sample of Positive and Negative CrMom,Sample of Positive and Negative CrMom,Sample of Positive CrMom,Sample of Positive CrMom,Sample of Positive CrMom,Sample of Positive CrMom,Sample of Negative CrMom,Sample of Negative CrMom,Sample of Negative CrMom,Sample of Negative CrMom
+Variables,(1),(2),(3),(4),(5),(6),(7),(8),(9),(10),(11),(12)
+CrMom,2.296∗∗∗,2.380∗∗∗,2.581∗∗∗,2.086∗∗,−1.614,−2.002,−1.579,−1.268,1.180,1.567,1.669,1.389
+CrMom,(3.02),(3.02),(3.27),(2.07),(−1.23),(−1.46),(−1.14),(−0.69),(0.54),(0.69),(0.73),(0.50)
+High Pledge,,−0.002,−0.013,,,0.033,0.017,,,0.001,−0.005,
+High Pledge,,(−0.13),(−0.93),,,(1.03),(0.54),,,(0.03),(−0.12),
+High Pledge × CrMom,,−0.278,−0.282,,,1.294,1.288,,,−1.310,−1.387,
+High Pledge × CrMom,,(−0.29),(−0.30),,,(0.79),(0.77),,,(−0.45),(−0.47),
+Zero Pledge,,,,0.014,,,,0.002,,,,0.022
+Zero Pledge,,,,(1.09),,,,(0.06),,,,(0.63)
+Zero Pledge × CrMom,,,,0.616,,,,−0.007,,,,−0.047
+Zero Pledge × CrMom,,,,(0.65),,,,(−0.00),,,,(−0.02)
+Mom,−0.163,−0.165,−0.379,−0.428,−0.481,−0.478,−0.943∗,−0.990∗∗,0.257,0.251,0.163,0.111
+Mom,(−0.45),(−0.45),(−1.05),(−1.18),(−0.99),(−0.99),(−1.93),(−2.01),(0.50),(0.49),(0.32),(0.22)
+MktMom,41.384∗∗∗,41.385∗∗∗,41.385∗∗∗,41.383∗∗∗,40.911∗∗∗,40.909∗∗∗,40.908∗∗∗,40.889∗∗∗,40.526∗∗∗,40.525∗∗∗,40.526∗∗∗,40.551∗∗∗
+MktMom,(39.91),(39.91),(39.92),(39.88),(35.71),(35.71),(35.73),(35.67),(29.42),(29.42),(29.42),(29.40)
+Firm Characteristics Controlled?,No,No,Yes,Yes,No,No,Yes,Yes,No,No,Yes,Yes
+Month and Industry FEs,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Observations,56102,56102,56102,56102,27840,27840,27840,27840,28262,28262,28262,28262
+Adj. R2,0.15,0.15,0.15,0.15,0.19,0.19,0.19,0.19,0.11,0.11,0.11,0.11

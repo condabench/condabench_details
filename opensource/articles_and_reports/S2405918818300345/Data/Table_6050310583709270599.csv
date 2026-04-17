@@ -1,0 +1,7 @@
+TO,FROM,FROM,FROM,FROM,Empty Cell
+TO,SP_R,TB_R,EXR_R,FROM OTHERS,NET SPILLOVERS
+SP_R,94.3,2.3,3.4,6,−1
+TB_R,2.4,97.1,0.4,3,0
+EXR_R,3.0,0.4,96.6,3,1
+Contributions to others,5.0,3.0,4.0,1,1
+Contribution including own,100.0,100.0,100.0,SPILLOVER INDEX = 4%,SPILLOVER INDEX = 4%

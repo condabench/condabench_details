@@ -1,0 +1,4 @@
+Model,Sum of squares,df,Mean square,F,Sig.
+1 Regression,1.354,3,0.387,0.234,.865b
+Residual,2.894,2,1.793,,
+Total,4.0,6,,,

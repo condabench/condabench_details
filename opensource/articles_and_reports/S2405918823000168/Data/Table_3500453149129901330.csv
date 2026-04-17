@@ -1,0 +1,19 @@
+Panel A. The interbank market,Panel A. The interbank market,Panel A. The interbank market,Panel A. The interbank market,Panel A. The interbank market,Panel A. The interbank market,Panel A. The interbank market,Panel A. The interbank market,Panel A. The interbank market,Panel A. The interbank market
+Empty Cell,(1),(2),(3),(4),(5),(6),(7),(8),(9)
+Lnsize,−0.0247,,,,,,,0.0015,0.0009
+Lnsize,(-3.12),,,,,,,(0.28),(0.16)
+Maturity,,0.0562,,,,,,0.0470,0.0409
+Maturity,,(2.06),,,,,,(1.78),(1.43)
+Age,,,0.0084,,,,,0.0017,0.0009
+Age,,,(1.43),,,,,(0.43),(0.23)
+Rating,,,,0.0546,,,,0.0432,0.0388
+Rating,,,,(4.59),,,,(4.82),(4.20)
+Amihud,,,,,0.0503,,,0.0308,0.0277
+Amihud,,,,,(4.08),,,(2.81),(2.83)
+SOE,,,,,,−0.0146,,,−0.0156
+SOE,,,,,,(-0.62),,,(-0.77)
+MCB,,,,,,,0.1085,,0.0180
+MCB,,,,,,,(3.23),,(1.04)
+Intercept,0.2325,0.2325,0.2325,0.2325,0.2325,0.2437,0.2009,0.2325,0.2395
+Intercept,(6.18),(6.18),(6.18),(6.18),(6.18),(6.91),(6.32),(6.18),(5.20)
+Adj-R2,1.15%,11.36%,0.77%,2.87%,4.66%,0.38%,2.91%,17.34%,17.06%

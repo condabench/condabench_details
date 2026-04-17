@@ -1,0 +1,19 @@
+ARIMA,AIC,Serial correlation,Serial correlation,ARCH-effect,ARCH-effect,Model significance
+ARIMA,AIC,F-stat,P-value,F-stat,P-value,Model significance
+110,−5.18,2.56,0.0,35.31,0.0,Not-significant
+210,−5.18,2.3,0.0,33.0,0.0,Significant
+11,−5.18,2.51,0.0,35.3,0.0,Not-significant
+12,−5.18,2.29,0.0,32.79,0.0,Significant
+111,−5.18,2.55,0.0,35.12,0.0,Not-significant
+112,−5.19,1.95,0.0,32.49,0.0,Significant
+211,−5.19,1.95,0.0,32.37,0.0,Significant
+212,−5.19,1.82,0.01,32.36,0.0,Significant
+312,−5.19,1.82,0.01,32.65,0.0,Not-significant
+213,−5.19,1.89,0.01,32.87,0.0,Significant
+313,−5.19,1.64,0.03,30.49,0.0,Significant
+413,−5.19,1.66,0.02,30.59,0.0,Not-significant
+314,−5.19,1.64,0.03,30.63,0.0,Not-significant
+414,−5.18,1.81,0.01,32.18,0.0,Not-significant
+514,−5.19,1.61,0.03,31.18,0.0,Significant
+415,−5.19,1.81,0.01,32.71,0.0,Significant
+515,−5.19,1.41,0.09,29.89,0.0,Significant

@@ -1,0 +1,46 @@
+{
+  "id": "camnugent/california-housing-prices",
+  "id_no": 5227,
+  "datasetSlugNullable": "california-housing-prices",
+  "ownerUserNullable": "camnugent",
+  "usabilityRatingNullable": 0.8529411764705882,
+  "titleNullable": "California Housing Prices",
+  "subtitleNullable": "Median house prices for California districts derived from the 1990 census.",
+  "descriptionNullable": "### Context\n\nThis is the dataset used in the second chapter of Aur\u00e9lien G\u00e9ron's recent book 'Hands-On Machine learning with Scikit-Learn and TensorFlow'. It serves as an excellent introduction to implementing machine learning algorithms because it requires rudimentary data cleaning, has an easily understandable list of variables and sits at an optimal size between being to toyish and too cumbersome.\n\nThe data contains information from the 1990 California census. So although it may not help you with predicting current housing prices like the Zillow Zestimate dataset, it does provide an accessible introductory dataset for teaching people about the basics of machine learning.\n  \n### Content\n\nThe data pertains to the houses found in a given California district and some summary stats about them based on the 1990 census data. Be warned the data aren't cleaned so there are some preprocessing steps required! The columns are as follows, their names are pretty self explanitory:\n\nlongitude\n\nlatitude\n\nhousing_median_age\n\ntotal_rooms\n\ntotal_bedrooms\n\npopulation\n\nhouseholds\n\nmedian_income\n\nmedian_house_value\n\nocean_proximity\n\n### Acknowledgements\n\nThis data was initially featured in the following paper:\nPace, R. Kelley, and Ronald Barry. \"Sparse spatial autoregressions.\" Statistics & Probability Letters 33.3 (1997): 291-297.\n\nand I encountered it in 'Hands-On Machine learning with Scikit-Learn and TensorFlow' by Aur\u00e9lien G\u00e9ron.\nAur\u00e9lien G\u00e9ron wrote:\nThis dataset is a modified version of the California Housing dataset available from:\n[Lu\u00eds Torgo's page](http://www.dcc.fc.up.pt/~ltorgo/Regression/cal_housing.html) (University of Porto)\n\n### Inspiration\n\nSee my kernel on machine learning basics in R using this dataset, or venture over to the following link for a python based introductory tutorial: https://github.com/ageron/handson-ml/tree/master/datasets/housing",
+  "datasetId": 5227,
+  "datasetSlug": "california-housing-prices",
+  "hasDatasetSlug": true,
+  "ownerUser": "camnugent",
+  "hasOwnerUser": true,
+  "usabilityRating": 0.8529411764705882,
+  "hasUsabilityRating": true,
+  "totalViews": 813208,
+  "totalVotes": 1260,
+  "totalDownloads": 174304,
+  "title": "California Housing Prices",
+  "hasTitle": true,
+  "subtitle": "Median house prices for California districts derived from the 1990 census.",
+  "hasSubtitle": true,
+  "description": "### Context\n\nThis is the dataset used in the second chapter of Aur\u00e9lien G\u00e9ron's recent book 'Hands-On Machine learning with Scikit-Learn and TensorFlow'. It serves as an excellent introduction to implementing machine learning algorithms because it requires rudimentary data cleaning, has an easily understandable list of variables and sits at an optimal size between being to toyish and too cumbersome.\n\nThe data contains information from the 1990 California census. So although it may not help you with predicting current housing prices like the Zillow Zestimate dataset, it does provide an accessible introductory dataset for teaching people about the basics of machine learning.\n  \n### Content\n\nThe data pertains to the houses found in a given California district and some summary stats about them based on the 1990 census data. Be warned the data aren't cleaned so there are some preprocessing steps required! The columns are as follows, their names are pretty self explanitory:\n\nlongitude\n\nlatitude\n\nhousing_median_age\n\ntotal_rooms\n\ntotal_bedrooms\n\npopulation\n\nhouseholds\n\nmedian_income\n\nmedian_house_value\n\nocean_proximity\n\n### Acknowledgements\n\nThis data was initially featured in the following paper:\nPace, R. Kelley, and Ronald Barry. \"Sparse spatial autoregressions.\" Statistics & Probability Letters 33.3 (1997): 291-297.\n\nand I encountered it in 'Hands-On Machine learning with Scikit-Learn and TensorFlow' by Aur\u00e9lien G\u00e9ron.\nAur\u00e9lien G\u00e9ron wrote:\nThis dataset is a modified version of the California Housing dataset available from:\n[Lu\u00eds Torgo's page](http://www.dcc.fc.up.pt/~ltorgo/Regression/cal_housing.html) (University of Porto)\n\n### Inspiration\n\nSee my kernel on machine learning basics in R using this dataset, or venture over to the following link for a python based introductory tutorial: https://github.com/ageron/handson-ml/tree/master/datasets/housing",
+  "hasDescription": true,
+  "isPrivate": false,
+  "keywords": [
+    "united states",
+    "housing",
+    "real estate",
+    "social science",
+    "computer science",
+    "programming",
+    "software",
+    "social issues and advocacy"
+  ],
+  "licenses": [
+    {
+      "nameNullable": "CC0-1.0",
+      "name": "CC0-1.0",
+      "hasName": true
+    }
+  ],
+  "collaborators": [],
+  "data": []
+}

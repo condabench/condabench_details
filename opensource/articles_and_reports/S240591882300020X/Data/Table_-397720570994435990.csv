@@ -1,0 +1,11 @@
+Panel A. Monthly Stock Returns (2017–2018),Panel A. Monthly Stock Returns (2017–2018)
+Variables,Monthly Return (MRet)
+Variables,(1)
+High Pledge,−0.458∗∗
+High Pledge,(−2.14)
+High Pledge × Dum2017,0.416∗∗
+High Pledge × Dum2017,(2.06)
+Firm Characteristics Controlled?,Yes
+Month and Industry FEs,Yes
+Observations,9982
+Adj. R2,0.21

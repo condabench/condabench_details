@@ -1,0 +1,16 @@
+Panel B1. Stock Momentum (2018),Panel B1. Stock Momentum (2018),Panel B1. Stock Momentum (2018),Panel B1. Stock Momentum (2018),Panel B1. Stock Momentum (2018),Panel B1. Stock Momentum (2018),Panel B1. Stock Momentum (2018),Panel B1. Stock Momentum (2018),Panel B1. Stock Momentum (2018),Panel B1. Stock Momentum (2018)
+Daily Stock Return (DRet),Daily Stock Return (DRet),Daily Stock Return (DRet),Daily Stock Return (DRet),Daily Stock Return (DRet),Daily Stock Return (DRet),Daily Stock Return (DRet),Daily Stock Return (DRet),Daily Stock Return (DRet),Daily Stock Return (DRet)
+Variables,Sample of Positive and Negative Mom,Sample of Positive and Negative Mom,Sample of Positive and Negative Mom,Sample of Positive Mom,Sample of Positive Mom,Sample of Positive Mom,Sample of Negative Mom,Sample of Negative Mom,Sample of Negative Mom
+Variables,(1),(2),(3),(4),(5),(6),(7),(8),(9)
+Mom,2.560∗∗∗,1.681∗∗∗,1.659∗∗∗,−0.110,−1.200,−1.226,5.071∗∗∗,3.978∗∗∗,3.788∗∗∗
+Mom,(6.83),(4.37),(4.34),(−0.16),(−1.47),(−1.49),(7.30),(5.34),(5.15)
+High Pledge,,−0.024∗,−0.021,,−0.049,−0.048,,−0.001,0.002
+High Pledge,,(−1.83),(−1.51),,(−1.18),(−1.14),,(−0.02),(0.05)
+Mom × High Pledge,,1.823∗∗∗,1.808∗∗∗,,2.252∗,2.204∗,,2.158∗,2.105∗
+Mom × High Pledge,,(3.06),(3.04),,(1.74),(1.69),,(1.83),(1.80)
+MktMom,34.640∗∗∗,34.651∗∗∗,34.650∗∗∗,30.505∗∗∗,30.508∗∗∗,30.513∗∗∗,37.183∗∗∗,37.191∗∗∗,37.185∗∗∗
+MktMom,(53.18),(53.23),(53.22),(41.93),(41.99),(41.94),(50.30),(50.30),(50.29)
+Firm Characteristics Controlled?,No,No,Yes,No,No,Yes,No,No,Yes
+Month and Industry Fes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Observations,73706,73706,73706,33322,33322,33322,40384,40384,40384
+Adj. R2,0.25,0.25,0.25,0.18,0.18,0.18,0.31,0.31,0.31

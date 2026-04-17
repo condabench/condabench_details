@@ -1,0 +1,5 @@
+Algorithm,Hyperparameters
+Logistic Regression,"L2 Penalty, C = 1.0, All class weights = 1.0, Liblinear solver"
+Decision Tree,"Opt. criterion – GINI, max depth = None, min samples splits = 6, min samples leaf = 3, max features = auto"
+Random Forest,"N Estimators = 100, Opt. criterion – GINI, max depth = None, min samples split = 2, min samples leaf = 2, bootstrap = True"
+Gradient Boosting,"Objective = Multiclass, num class = 6, learning rate = 0.01, boosting type = gbdt, metric = multi error"

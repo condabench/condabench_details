@@ -1,0 +1,41 @@
+{
+  "id": "/mushroom-classification",
+  "id_no": 478,
+  "datasetSlugNullable": "mushroom-classification",
+  "ownerUserNullable": null,
+  "usabilityRatingNullable": 0.8529411764705882,
+  "titleNullable": "Mushroom Classification",
+  "subtitleNullable": "Safe to eat or deadly poison?",
+  "descriptionNullable": "### Context\n\nAlthough this dataset was originally contributed to the UCI Machine Learning repository nearly 30 years ago, mushroom hunting (otherwise known as \"shrooming\") is enjoying new peaks in popularity. Learn which features spell certain death and which are most palatable in this dataset of mushroom characteristics. And how certain can your model be?\n\n### Content \n\nThis dataset includes descriptions of hypothetical samples corresponding to 23 species of gilled mushrooms in the Agaricus and Lepiota Family Mushroom drawn from The Audubon Society Field Guide to North American Mushrooms (1981). Each species is identified as definitely edible, definitely poisonous, or of unknown edibility and not recommended. This latter class was combined with the poisonous one. The Guide clearly states that there is no simple rule for determining the edibility of a mushroom; no rule like \"leaflets three, let it be'' for Poisonous Oak and Ivy.\n\n- **Time period**: Donated to UCI ML 27 April 1987\n\n### Inspiration\n\n- What types of machine learning models perform best on this dataset?\n\n- Which features are most indicative of a poisonous mushroom?\n\n### Acknowledgements\n\nThis dataset was originally donated to the UCI Machine Learning repository. You can learn more about past research using the data [here][1]. \n\n#[Start a new kernel][2]\n\n\n  [1]: https://archive.ics.uci.edu/ml/datasets/Mushroom\n  [2]: https://www.kaggle.com/uciml/mushroom-classification/kernels?modal=true",
+  "datasetId": 478,
+  "datasetSlug": "mushroom-classification",
+  "hasDatasetSlug": true,
+  "ownerUser": "",
+  "hasOwnerUser": false,
+  "usabilityRating": 0.8529411764705882,
+  "hasUsabilityRating": true,
+  "totalViews": 1001066,
+  "totalVotes": 2386,
+  "totalDownloads": 139431,
+  "title": "Mushroom Classification",
+  "hasTitle": true,
+  "subtitle": "Safe to eat or deadly poison?",
+  "hasSubtitle": true,
+  "description": "### Context\n\nAlthough this dataset was originally contributed to the UCI Machine Learning repository nearly 30 years ago, mushroom hunting (otherwise known as \"shrooming\") is enjoying new peaks in popularity. Learn which features spell certain death and which are most palatable in this dataset of mushroom characteristics. And how certain can your model be?\n\n### Content \n\nThis dataset includes descriptions of hypothetical samples corresponding to 23 species of gilled mushrooms in the Agaricus and Lepiota Family Mushroom drawn from The Audubon Society Field Guide to North American Mushrooms (1981). Each species is identified as definitely edible, definitely poisonous, or of unknown edibility and not recommended. This latter class was combined with the poisonous one. The Guide clearly states that there is no simple rule for determining the edibility of a mushroom; no rule like \"leaflets three, let it be'' for Poisonous Oak and Ivy.\n\n- **Time period**: Donated to UCI ML 27 April 1987\n\n### Inspiration\n\n- What types of machine learning models perform best on this dataset?\n\n- Which features are most indicative of a poisonous mushroom?\n\n### Acknowledgements\n\nThis dataset was originally donated to the UCI Machine Learning repository. You can learn more about past research using the data [here][1]. \n\n#[Start a new kernel][2]\n\n\n  [1]: https://archive.ics.uci.edu/ml/datasets/Mushroom\n  [2]: https://www.kaggle.com/uciml/mushroom-classification/kernels?modal=true",
+  "hasDescription": true,
+  "isPrivate": false,
+  "keywords": [
+    "earth and nature",
+    "biology",
+    "public safety"
+  ],
+  "licenses": [
+    {
+      "nameNullable": "CC0-1.0",
+      "name": "CC0-1.0",
+      "hasName": true
+    }
+  ],
+  "collaborators": [],
+  "data": []
+}

@@ -1,0 +1,7 @@
+Country,Parameter estimates,Parameter estimates,Parameter estimates,Parameter estimates,Parameter estimates,Parameter estimates,AICa values,AICa values
+Country,"GARCH(1,1)","GARCH(1,1)","GARCH(1,1)","MODWT-GARCH(1,1)","MODWT-GARCH(1,1)","MODWT-GARCH(1,1)","GARCH(1,1)","MODWT-GARCH(1,1)"
+Country,α0,α1,β1,α0,α1,β1,"GARCH(1,1)","MODWT-GARCH(1,1)"
+Kenya,2.95 × 10−6 (23.20)∗∗∗,0.15 (32.58)∗∗∗,0.81 (331.62)∗∗∗,1.41 × 10−5 (25.24)∗∗∗,0.25 (18.03)∗∗∗,0.49 (31.20)∗∗∗,−6.93,−7.15
+Nigeria,6.14 × 10−6 (15.82)∗∗∗,0.33 (23.91)∗∗∗,0.72 (85.64)∗∗∗,8.90 × 10−6 (7.27)∗∗∗,0.51 (13.17)∗∗∗,0.62 (27.77)∗∗∗,−6.25,−6.38
+South Africa,4.07 × 10−6 (5.00)∗∗∗,0.07 (11.56)∗∗∗,0.91 (114.69)∗∗∗,9.20 × 10−6 (4.76)∗∗∗,0.10 (8.08)∗∗∗,0.86 (49.23)∗∗∗,−5.48,−5.47
+Tunisia,2.15 × 10−6 (7.27)∗∗∗,0.09 (15.72)∗∗∗,0.85 (85.64)∗∗∗,5.21 × 10−6 (3.19)∗∗∗,0.05 (10.32)∗∗∗,0.94 (123.96)∗∗∗,−7.24,−7.34

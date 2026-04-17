@@ -1,0 +1,9 @@
+Empty Cell,CLOSE,VTOTAL,VPOS,VNEG
+CLOSE,CLOSE,CLOSE,CLOSE,CLOSE
+Pearson Correlation Sig. (2-tailed),1,.549 .263,−.479 .326,−.548 .241
+VTOTAL,VTOTAL,VTOTAL,VTOTAL,VTOTAL
+Pearson Correlation Sig. (2-tailed),−.549 .263,1,.947a .003,.958a .001
+VPOS,VPOS,VPOS,VPOS,VPOS
+Pearson Correlation Sig. (2-tailed),.479 .326,.921a .003,1,.951a .003
+VNEG,VNEG,VNEG,VNEG,VNEG
+Pearson Correlation Sig. (2-tailed),−.548 .241,.958a .001,.951a .003,1

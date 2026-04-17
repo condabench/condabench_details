@@ -1,0 +1,5 @@
+Algorithm,Accuracy,Macro Avg. Precision,Weighted Avg. Precision,Macro Avg. Recall,Weighted Avg. Recall,Macro F1-Score,Weighted F1-Score
+Logistic Regression,0.55,0.5,0.58,0.33,0.55,0.33,0.49
+Decision Tree,0.8,0.79,0.8,0.8,0.8,0.8,0.8
+Random Forest,0.89,0.93,0.89,0.89,0.89,0.91,0.89
+Gradient Boosting,0.94,0.96,0.94,0.94,0.94,0.95,0.94
